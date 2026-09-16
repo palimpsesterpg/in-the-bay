@@ -3618,10 +3618,7 @@ pblocgc,
 .fa_like_div {
 	display: flex;
 	align-items: center;
-	gap: var(--2xsmall);
 	position: relative;
-	color: var(--group-color, var(--darkneutral));
-	letter-spacing: 1px;
 	text-transform: uppercase;
 	justify-content: center
 }
@@ -3639,7 +3636,7 @@ pblocgc,
 
 .fa_like_div:hover .fa_like_list {
 	display: block;
-	top: var(--small);
+	top: -1rem;
 	right: 50%;
 	transform: translateX(50%);
 }
