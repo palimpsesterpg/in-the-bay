@@ -3630,9 +3630,10 @@ pblocgc,
 	padding: var(--large);
 	font-size: var(--small);
 	width: 300px;
-	border: 0.5px solid;
+	border: 0.5px solid var(--neutral);
 	height: fit-content;
 	background-color: var(--light);
+	letter-spacing: 0px;
 	text-align: justify
 }
 
