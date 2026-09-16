@@ -3626,16 +3626,23 @@ pblocgc,
 	justify-content: center
 }
 
-.fa_like_list {display: none;
-    position: absolute;
-padding: var(--large);
-  width: 300px;
-  height: fit-content;
-  background-color: var(--light);
-text-align: justify}
+.fa_like_list {
+	display: none;
+	font-family: var(--main);
+	position: absolute;
+	padding: var(--large);
+	width: 400px;
+	height: fit-content;
+	background-color: var(--light);
+	text-align: justify
+}
 
-.fa_like_div:hover .fa_like_list {display: block;
-bottom: var(--small);}
+.fa_like_div:hover .fa_like_list {
+	display: block;
+	top: var(--small);
+	right: 50%;
+	transform: translateX(50%);
+}
 
 .rep-button {
 	border: 0px;
@@ -3646,21 +3653,20 @@ bottom: var(--small);}
 
 .fa_like_div:has(.fa_like_list:empty) .rep-button:after {
 	content: "\e49f";
-	color: var(--group-color, var(--darkneutral))
 }
 
 .fa_like_list a {
-	color: var(--group-color, var(--co3)) !important
+	font-weight: 200
 }
 
 .rep-button:after {
 	content: "\f2ed";
 	font-family: "uicons-thin-straight" !important;
-	color: var(--group-color-100, var(--co3-100))
 }
 
 .rep-nb {
 	margin-right: var(--2xsmall);
+	font-family: var(--serif);
 	color: var(--group-color, var(--co3))
 }
 
