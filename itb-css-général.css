@@ -3628,6 +3628,7 @@ pblocgc,
     position: absolute;
 padding: var(--large);
   width: 300px;
+  height: fit-content;
   background-color: var(--light);
 text-align: justify}
 
