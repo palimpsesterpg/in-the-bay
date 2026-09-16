@@ -5472,10 +5472,9 @@ lblpmdn {
 }
 
 .minipostprofile .tooltip-rank {
-	display: flex;
-	flex-direction: column;
 	flex: 1;
 	padding: var(--large);
 	letter-spacing: var(--2xsmall);
+	text-transform: uppercase !important;
 	font-weight: 300;
 }
