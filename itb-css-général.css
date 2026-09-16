@@ -284,7 +284,6 @@ fslarge {
 	align-items: center;
 	margin: 0 auto;
 	display: flex;
-	padding: var(--large);
 	justify-content: center;
 	flex-direction: column
 }
@@ -5463,4 +5462,8 @@ lblpmdn {
 .trad:hover vf {
 	display: inline;
 	transition: 0.5s
+}
+
+.minipostprofile {
+	flex: 1
 }
