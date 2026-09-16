@@ -3521,7 +3521,7 @@ pblocgc,
 	color: var(--group-color, var(--co1))
 }
 
-.tooltip-rank celeb {
+.tooltipster-content .tooltip-rank celeb {
 	text-transform: capitalize !important
 }
 
@@ -5478,3 +5478,5 @@ lblpmdn {
 	text-transform: uppercase !important;
 	font-weight: 300;
 }
+
+.minipostprofile .tooltip-rank br {display: none}
