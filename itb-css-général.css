@@ -3938,6 +3938,7 @@ p {
 	background: var(--group-color-50, var(--co1-50));
 	border-radius: 50%;
 	align-items: center;
+	color: var(--group-color, var(--co1));
 	justify-content: center
 }
 
