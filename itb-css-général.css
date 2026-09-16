@@ -5467,7 +5467,6 @@ lblpmdn {
 
 .minipostprofile {
 	flex: 1 1 100%;
-	display: flex;
 	gap: var(--large)
 }
 
