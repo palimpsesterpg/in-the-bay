@@ -4037,6 +4037,7 @@ p {
 .notiffi_body_admin:before,
 .notiffi_body_notepad:before,
 .notiffi_links:before,
+.notiffi_news:before,
 .notiffi_notiflist:before {
 	font-weight: 100;
 	text-transform: uppercase;
@@ -4073,11 +4074,24 @@ p {
 	content: "liens utiles"
 }
 
+.notiffi_links:before {
+	content: "what's up sunnyvale ?"
+}
+
 .notiffi_notiflist {
 	width: 60%;
 	margin-top: 34px;
 	height: -webkit-fill-available;
 	position: relative
+}
+
+.notiffi_news {
+    height: -webkit-fill-available;
+    flex: 1;
+    padding: var(--large);
+    position: relative;
+    margin-top: 34px;
+    background-color: var(--group-color-100, var(--co1-100));
 }
 
 .signature_div:before {
