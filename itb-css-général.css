@@ -4106,11 +4106,12 @@ p {
 }
 
 .ficheperso.first {
-	width: 90%;
+	width: 75%;
 	align-items: stretch;
 	border: 1px solid var(--group-color);
 	flex-direction: row !important;
 	justify-content: center;
+	padding: var(--large);
 	margin: 0 auto
 }
 
