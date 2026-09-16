@@ -289,21 +289,12 @@ fslarge {
 	flex-direction: column
 }
 
-.fichefam.noprof,
-.ficheadmin.noprof {
-	margin: 0 var(--3xlarge)
-}
-
-.fichefam.noprof serifi1 {
+.group-7 .fichefam serifi1 {
 	color: var(--co1-700)
 }
 
-.fichefam.noprof serifi2 {
+.group-7 .fichefam serifi2 {
 	color: var(--co2-700)
-}
-
-.fichefam.noprof .textlisting {
-	padding: var(--2xlarge)
 }
 
 .headperso,
@@ -807,7 +798,7 @@ reclinks a:after {
 	margin-left: var(--5xlarge)
 }
 
-.fichefam.noprof mainb4 {
+.group-7 .fichefam mainb4 {
 	font-weight: 500
 }
 
@@ -3123,14 +3114,14 @@ majgc::first-letter {
 	border-radius: 100%
 }
 
-.fichefam varb3,
-.fichefam varb4 {
+.group-7 .fichefam varb1,
+.group-7 .fichefam varb2 {
 	font-size: var(--large);
 	letter-spacing: 1px;
 	text-transform: uppercase
 }
 
-.fichefam lback3 {
+.group-7 .fichefam lback1 {
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
 	padding: 2.5px var(--xlarge) 2.5px calc(var(--xlarge) + 2.5px);
