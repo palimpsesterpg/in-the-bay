@@ -1,0 +1,519 @@
+.cam camhd {
+    display: block;
+    text-align: center;
+    color: var(--group-color)
+}
+
+.cam camhd:before {
+    font-family: "TES";
+    font-size: var(--xlarge);
+    margin-bottom: var(--small);
+    display: block
+}
+
+[data-user-id="u2"].cam camhd:before {
+    content: "\E052"
+}
+
+[data-user-id="u60"].cam camhd:before {
+    content: "\E026"
+}
+
+[data-user-id="u96"].cam camhd:before {
+    content: "\E044"
+}
+
+[data-user-id="u112"].cam camhd:before {
+    content: "\E022"
+}
+
+.cam camhd upp {
+    font-family: var(--serif);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.cam camhd upp:before,
+.cam camhd upp:after {
+    font-family: "TES";
+    content: "\E011";
+    font-size: var(--xlarge)
+}
+
+.cam camhd upp:before {
+    padding-right: var(--large)
+}
+
+.cam camhd upp:after {
+    padding-left: var(--large)
+}
+
+.cam .blocperso.one i,
+.cam .blocperso.one strong,
+.cam .blocrec.two i,
+.cam .blocrec.two strong {
+    font-family: var(--serif)
+}
+
+.cam .blocperso.one i,
+.cam .blocrec.two i {
+    font-weight: 400
+}
+
+.cam .content i:not(.fi),
+.cam .content strong:not(chronoevent strong) {
+    color: var(--group-color)
+}
+
+.cam cam1 {
+    color: var(--group-color);
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-left: 1px;
+    font-size: var(--small)
+}
+
+.cam cam2 {
+    background-color: var(--group-color-50);
+    padding: 0 var(--medium);
+    font-family: "Inconsolata";
+    font-weight: 300;
+    text-transform: lowercase;
+    color: var(--group-color)
+}
+
+.cam cam3 {
+    background: linear-gradient(to right,
+            var(--group-color-300),
+            var(--group-color),
+            var(--group-color-300));
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--serif);
+    text-transform: uppercase
+}
+
+.cam cam4 {
+    color: var(--white);
+    background-color: var(--group-color);
+    font-family: var(--var);
+    text-transform: lowercase;
+    letter-spacing: 2.5px;
+    font-weight: 200;
+    font-size: var(--large);
+    padding-right: var(--xsmall);
+    padding-left: calc(var(--xsmall) + 2.5px)
+}
+
+.cam cam5 {
+    color: var(--group-color);
+    box-shadow: 0px -5px inset var(--group-color-50);
+    font-family: var(--serif);
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.cam cam6 {
+    background: linear-gradient(to right,
+            var(--group-color-300),
+            var(--group-color),
+            var(--group-color-300));
+    color: var(--white);
+    padding-right: var(--xsmall);
+    padding-left: calc(var(--xsmall) + 5px);
+    text-transform: lowercase;
+    font-style: italic;
+    font-weight: 200;
+    letter-spacing: 5px
+}
+
+.cam cam7 {
+    color: var(--group-color);
+    font-weight: 200;
+    padding-left: 2.5px;
+    font-size: var(--large);
+    letter-spacing: 2.5px;
+    text-transform: uppercase
+}
+
+.cam cam8 {
+    font-size: var(--large);
+    background: var(--group-color-600);
+    color: var(--white);
+    padding: 0 var(--small);
+    text-transform: lowercase;
+    font-weight: 200
+}
+
+.cam cam9 {
+    font-family: var(--serif);
+    color: var(--group-color);
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 200
+}
+
+.cam cam9::first-letter {
+    font-size: var(--large);
+    font-weight: 100;
+    font-family: var(--spe)
+}
+
+.ficheperso cam9::first-letter {
+    font-size: var(--medium) !important
+}
+
+.cam cam10 {
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-right: var(--small);
+    padding-left: calc(var(--small) + 1px);
+    letter-spacing: 1px;
+    color: var(--group-color);
+    background: var(--group-color-50);
+    text-shadow: 1px 1px var(--white)
+}
+
+.cam .rpcam {
+    border: 1px solid var(--group-color-200);
+    outline: 2px solid var(--group-color-50);
+    box-shadow: 0px 0px 0px 6px var(--white);
+    background-color: var(--white);
+    padding: var(--xlarge);
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: var(--xlarge);
+    align-items: center
+}
+
+.cam .quoterpcam {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    color: var(--group-color);
+    gap: var(--large)
+}
+
+.cam .quoterpcam span {
+    display: inline-block;
+    transform: rotateY(3.142rad);
+    font-size: var(--2xlarge)
+}
+
+.cam .quoterpcam div {
+    flex: 1;
+    font-family: var(--serif)
+}
+
+.cam .inforpcam {
+    color: var(--group-color) !important;
+    background: var(--group-color-50);
+    padding: var(--2xsmall);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: var(--small);
+    font-weight: 200;
+    width: 100%
+}
+
+.cam .inforpcam>span {
+    display: flex;
+    align-items: center;
+    gap: var(--2xsmall)
+}
+
+.cam .inforpcam .mentiontag {
+    color: inherit !important;
+    text-transform: inherit !important;
+    font-weight: inherit !important
+}
+
+.cam .footrpcam {
+    background: var(--group-color);
+    color: var(--white) !important;
+    padding: var(--2xsmall);
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: 700;
+    width: 100%
+}
+
+.cam .footrpcam u {
+    box-shadow: inset 0 -8px 0 var(--group-color-600);
+    text-decoration: none
+}
+
+.cam .bodyrpcam {
+    width: 100%
+}
+
+.cam .bodyrpcam i {
+    margin: var(--large);
+    font-weight: 700
+}
+
+.cam .bodyrpcam i:before {
+    font-family: "TES";
+    content: "\E019";
+    padding-left: var(--2xsmall);
+    font-style: normal;
+    display: inline-block;
+    transform: rotateY(3.142rad)
+}
+
+.cam .imgrpcam {
+    object-fit: cover;
+    border-radius: 100%
+}
+
+.cam .imgrpcam.one {
+    width: 50px;
+    height: 50px
+}
+
+.cam .imgrpcam.two {
+    width: 75px;
+    height: 75px;
+    padding: var(--2xsmall);
+    border: 0.5px solid var(--group-color);
+    margin: 0 var(--large) var(--2xsmall) var(--large)
+}
+
+.cam #postprofile-libre div[align="left"] {
+    font-family: var(--serif);
+    text-transform: uppercase;
+    display: flex;
+    color: var(--group-color);
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    text-align: right;
+    font-weight: 500
+}
+
+.cam #postprofile-libre div[align="left"]:before {
+    font-family: "TES";
+    content: "\E013";
+    font-weight: 200;
+    font-size: var(--2xlarge)
+}
+
+.cam #postprofile-libre ol[type="i"] {
+    margin-top: var(--medium) !important
+}
+
+.cam #postprofile-libre h2 {
+    letter-spacing: 2.5px;
+    padding-left: 2.5px !important
+}
+
+.cam #postprofile-libre h3 {
+    background-color: var(--group-color-50);
+    margin: 0 auto !important;
+    width: fit-content;
+    text-transform: uppercase;
+    padding: 0.25rem var(--xlarge) 0 !important
+}
+
+.cam #postprofile-libre .postprofile-field-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--large)
+}
+
+.cam #postprofile-libre div[align="center"] img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%
+}
+
+.cam #postprofile-libre div[align="justify"] {
+    padding: var(--xsmall);
+    background: var(--group-color-50);
+    color: var(--group-color);
+    font-weight: 300;
+    border: 0.5px solid var(--group-color-200)
+}
+
+.cam #postprofile-libre div[align="justify"] hr {
+    border-bottom: 0.5px solid var(--group-color) !important;
+    border: 0px solid
+}
+
+.cam #postprofile-libre div[align="justify"] strong {
+    color: var(--group-color) !important
+}
+
+.cam #postprofile-libre div[align="justify"] a {
+    background-color: var(--white);
+    color: var(--group-color) !important
+}
+
+.cam #postprofile-libre div[align="justify"] a:hover {
+    background-color: transparent
+}
+
+.cam #postprofile-libre div[align="justify"] a+a {
+    margin-left: var(--small)
+}
+
+.signcam {
+    display: flex;
+    gap: var(--large);
+    align-items: center
+}
+
+.signcam span {
+    font-size: var(--2xlarge);
+    color: var(--group-color)
+}
+
+.signcam div {
+    font-family: var(--serif);
+    text-align: justify
+}
+
+.signcam.har div {
+    width: 150px
+}
+
+.signcam.fran div {
+    width: 100px
+}
+
+.signcam.esth div {
+    width: 270px
+}
+
+.signcam div i {
+    font-weight: 500 !important
+}
+
+.signcam div i,
+.signcam div strong {
+    color: var(--group-color) !important
+}
+
+.signcam div strong {
+    font-weight: 700 !important
+}
+
+.signcam img {
+    height: 60px;
+    width: 90px;
+    object-fit: cover
+}
+
+.cam .blocperso.one {
+    padding: var(--2xlarge)
+}
+
+.cam .headperso img {
+    width: 85px;
+    height: 85px;
+    border-radius: 100%
+}
+
+.cam .blocperso blspgc {
+    font-family: var(--serif)
+}
+
+.cam .ficheperso.anec .posttab {
+    text-align: center;
+    color: var(--group-color);
+    font-family: var(--mono);
+    letter-spacing: 2.5px
+}
+
+.animrec {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--2xlarge);
+    justify-content: space-evenly
+}
+
+.animrec img {
+    width: 115px;
+    height: 115px;
+    filter: grayscale(1);
+    object-fit: cover;
+    padding: var(--xsmall);
+    background: white;
+    border: 1px solid var(--neutral)
+}
+
+.cam .blocperso chronoevent strong {
+    font-family: var(--main);
+    font-size: var(--small);
+    text-transform: uppercase;
+    background-color: var(--white);
+    color: var(--group-color, var(--darkneutral));
+    padding: var(--2xsmall) var(--large) var(--2xsmall) calc(var(--large) + 1.5px);
+    letter-spacing: 1.5px;
+    border: 0.25px solid
+}
+
+.cam .textlisting .mentiontag {
+    color: inherit !important;
+    text-transform: inherit !important
+}
+
+.cam .fichefam wback3,
+.cam .fichefam wbackd {
+    text-transform: uppercase;
+    font-size: var(--large)
+}
+
+.cam .fichefam wback3 {
+    background: var(--co3-50)
+}
+
+.cam .fichefam wbackd {
+    background: var(--neutral)
+}
+
+.cam .fichefam main4,
+.cam .fichefam main3,
+.cam .fichefam maind,
+.cam .fichefam main4 a,
+.cam .fichefam main3 a,
+.cam .fichefam maind a {
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 1px
+}
+
+.cam .fichefam back3 {
+    padding-left: var(--large);
+    letter-spacing: 2.5px;
+    margin-left: var(--3xlarge)
+}
+
+.cam .random .posttab::first-letter {
+    font-family: var(--spe);
+    font-size: var(--xlarge);
+    text-transform: uppercase
+}
+
+.cam .random .posttab {
+    font-weight: 200;
+    letter-spacing: 2.5px;
+    font-size: var(--large)
+}
+
+.cam .random .posttab.active {
+    padding-left: var(--large)
+}
+
+.cam .blocpl.one {color: var(--group-color)}
