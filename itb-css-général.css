@@ -55,7 +55,7 @@ x2large,
 	--gradient23: linear-gradient(to left, var(--co2), var(--co3));
 	--gradient12-50: linear-gradient(to left, var(--co1-50), var(--co2-50));
 	--gradient13-50: linear-gradient(to left, var(--co1-50), var(--co3-50));
-	--gradient23-50: linear-gradient(to left, var(--co2-50), var(--co3-50));
+	--gradient23-50: linear-gradient(to left, var(--co2-50), var(--co3-50))
 }
 
 fssmalll {
@@ -84,7 +84,7 @@ fslarge {
 	justify-content: center;
 	gap: var(--large);
 	flex-wrap: wrap;
-	width: 100%;
+	width: 100%
 }
 
 .posttab-content {
@@ -133,7 +133,7 @@ fslarge {
 	--group-color: #72B4C8;
 	--group-color-600: #4EA1BA;
 	--group-color-700: #3B8298;
-	--group-color-800: #2C6272;
+	--group-color-800: #2C6272
 }
 
 .group-5 {
@@ -145,7 +145,7 @@ fslarge {
 	--group-color: #734B81;
 	--group-color-600: #5F3F6B;
 	--group-color-700: #4C3256;
-	--group-color-800: #392640;
+	--group-color-800: #392640
 }
 
 .group-6 {
@@ -157,7 +157,7 @@ fslarge {
 	--group-color: #A17E55;
 	--group-color-600: #866846;
 	--group-color-700: #6B5338;
-	--group-color-800: #503E2A;
+	--group-color-800: #503E2A
 }
 
 .group-def {
@@ -369,7 +369,7 @@ fslarge {
 .blocperso.one {
 	background-color: var(--white);
 	border: 1px solid var(--group-color-200, var(--co3-200));
-	padding: var(--large);
+	padding: var(--large)
 }
 
 lblprs {
@@ -489,7 +489,7 @@ lblrchrch {
 	font-size: var(--small);
 	color: var(--group-color, var(--co1));
 	letter-spacing: .5px;
-	padding-left: 2px;
+	padding-left: 2px
 }
 
 .groupperso {
@@ -590,7 +590,7 @@ blockquote.blocperso {
 .blocrec,
 .blocperso {
 	text-align: justify;
-	width: -webkit-fill-available;
+	width: -webkit-fill-available
 }
 
 .blocpl.one {
@@ -761,7 +761,7 @@ reclinks a:after {
 .blocrec.one bordergc {
 	padding: 0rem var(--xlarge);
 	font-weight: 200;
-	letter-spacing: 1.5px;
+	letter-spacing: 1.5px
 }
 
 .dotlist:before {
@@ -895,7 +895,7 @@ mborderbigc {
 	border: 0.5px solid;
 	background-color: var(--white);
 	padding: 0.1rem var(--xsmall);
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 border1,
@@ -2578,7 +2578,7 @@ majd::first-letter,
 majgc::first-letter {
 	font-size: var(--xlarge) !important;
 	text-transform: lowercase !important;
-	font-family: var(--spe);
+	font-family: var(--spe)
 }
 
 .brf2,
@@ -2854,7 +2854,7 @@ majgc::first-letter {
 .br4d:before,
 .br4gc:before {
 	content: "\eb42 \eb42 \eb42 \eb42 \eb42";
-	font-family: uicons-thin-straight !important;
+	font-family: uicons-thin-straight !important
 }
 
 .br61:before,
@@ -2863,14 +2863,14 @@ majgc::first-letter {
 .br6n:before,
 .br6d:before,
 .br6gc:before {
-	content: "~~~~~~~~~~~~~~~~~~~~";
+	content: "~~~~~~~~~~~~~~~~~~~~"
 }
 
 .br91:before,
 .br92:before,
 .br93:before {
 	content: "\ea5a \ea5a \ea5a \ea5a \ea5a";
-	font-family: uicons-thin-straight !important;
+	font-family: uicons-thin-straight !important
 }
 
 .br61,
@@ -2885,7 +2885,7 @@ majgc::first-letter {
 	font-size: var(--2xlarge);
 	color: var(--co1);
 	font-weight: 100;
-	letter-spacing: -0.34rem;
+	letter-spacing: -0.34rem
 }
 
 .br81,
@@ -3636,9 +3636,9 @@ pblocgc,
 
 .fa_like_div:hover .fa_like_list {
 	display: block;
-	top: -1rem;
+	bottom: -1rem;
 	right: 50%;
-	transform: translateX(50%);
+	transform: translateX(50%)
 }
 
 .rep-button {
@@ -3649,7 +3649,7 @@ pblocgc,
 }
 
 .fa_like_div:has(.fa_like_list:empty) .rep-button:after {
-	content: "\e49f";
+	content: "\e49f"
 }
 
 .fa_like_list a {
@@ -3658,13 +3658,13 @@ pblocgc,
 
 .rep-button:after {
 	content: "\f2ed";
-	font-family: "uicons-thin-straight" !important;
+	font-family: "uicons-thin-straight" !important
 }
 
 .rep-nb {
 	margin-right: var(--2xsmall);
 	font-family: var(--serif);
-	color: var(--group-color, var(--co3))
+	font-weight: 700
 }
 
 .indivhead {
@@ -3783,7 +3783,7 @@ chronoevent strong {
 	flex: 1;
 	position: relative;
 	background-color: var(--group-color-50, var(--co1-50)) !important;
-	padding: var(--large) !important;
+	padding: var(--large) !important
 }
 
 #fa_notepad {
@@ -3855,7 +3855,7 @@ p {
 	gap: var(--2xsmall);
 	flex-wrap: wrap;
 	align-items: center;
-	width: 100% !important;
+	width: 100% !important
 }
 
 #restricted-block a {
@@ -3864,7 +3864,7 @@ p {
 	font-size: var(--small);
 	text-transform: uppercase;
 	font-weight: 700;
-	height: fit-content;
+	height: fit-content
 }
 
 .postprofile.cam .postprofile-rank {
@@ -3925,7 +3925,7 @@ p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .notiffi_head_mini_links a:before {
@@ -3935,7 +3935,7 @@ p {
 	background: var(--group-color-50, var(--co1-50));
 	border-radius: 50%;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .notiffi_head_pseudo {
@@ -3945,7 +3945,7 @@ p {
 	padding-top: var(--small);
 	font-family: var(--spe);
 	color: var(--group-color, var(--co1));
-	grid-area: 1 / 1 / 3 / 2;
+	grid-area: 1 / 1 / 3 / 2
 }
 
 .notiffi_head_info {
@@ -3958,7 +3958,7 @@ p {
 	grid-template-rows: auto auto;
 	gap: var(--xsmall);
 	justify-items: center;
-	align-items: center;
+	align-items: center
 }
 
 .notiffi_head_data {
@@ -4004,7 +4004,7 @@ p {
 	max-height: 68px;
 	overflow: auto;
 	grid-template-columns: 1fr 1fr;
-	align-content: start;
+	align-content: start
 }
 
 .notiffi_body_rps {
@@ -4021,12 +4021,12 @@ p {
 	font-weight: 300;
 	font-family: var(--mono);
 	letter-spacing: 1.5px;
-	padding-right: var(--small);
+	padding-right: var(--small)
 }
 
 .notiffi_body_rps a:before {
 	content: "—";
-	padding-right: var(--small);
+	padding-right: var(--small)
 }
 
 .notiffi_body_rps:before,
@@ -4074,7 +4074,7 @@ p {
 	width: 60%;
 	margin-top: 34px;
 	height: -webkit-fill-available;
-	position: relative;
+	position: relative
 }
 
 .signature_div:before {
@@ -4275,7 +4275,7 @@ minipseudo {
 mainpseudo:before,
 minipseudo:before {
 	font-family: uicons-thin-straight !important;
-	content: "\e147";
+	content: "\e147"
 }
 
 mainpseudo:before {
@@ -5180,7 +5180,7 @@ lblpmdn {
 
 .posttab-content.thst u {
 	color: var(--group-color-200, var(--co3-200));
-	text-decoration: none !important;
+	text-decoration: none !important
 }
 
 .ficheperso.more .posttab-contents {
@@ -5194,11 +5194,11 @@ lblpmdn {
 	color: var(--darkneutral);
 	font-family: uicons-thin-straight !important;
 	font-size: var(--large);
-	margin: 0 var(--large);
+	margin: 0 var(--large)
 }
 
 .ficheperso.more .posttab.active:before {
-	color: var(--group-color, var(--co3));
+	color: var(--group-color, var(--co3))
 }
 
 .ficheperso.more .posttab[data-tab="1"]:before {
@@ -5223,7 +5223,7 @@ lblpmdn {
 
 .posttab-content.thst {
 	text-align: center;
-	word-spacing: var(--large);
+	word-spacing: var(--large)
 }
 
 .ficheperso.more .posttab-title {
@@ -5354,7 +5354,7 @@ lblpmdn {
 
 .fichedefi span a {
 	color: var(--group-color);
-	letter-spacing: 1px;
+	letter-spacing: 1px
 }
 
 .fichedefi span.done a {
@@ -5401,7 +5401,7 @@ lblpmdn {
 	padding: var(--large);
 	background-color: var(--white);
 	justify-content: center;
-	align-items: center;
+	align-items: center
 }
 
 .defiheader img {
@@ -5409,7 +5409,7 @@ lblpmdn {
 	width: 65px;
 	object-fit: cover;
 	filter: grayscale(1);
-	border-radius: 50%;
+	border-radius: 50%
 }
 
 .defiheader defipseudo {
@@ -5420,7 +5420,7 @@ lblpmdn {
 	font-family: var(--serif);
 	font-weight: 100;
 	font-size: var(--xlarge);
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 .ficheperso.defis defistatus {
@@ -5429,13 +5429,13 @@ lblpmdn {
 	background: var(--group-color);
 	color: var(--white);
 	padding: 0 var(--2xsmall);
-	font-weight: 200;
+	font-weight: 200
 }
 
 .defis .blocperso a {
 	font-weight: 700;
 	letter-spacing: 1px;
-	text-transform: lowercase;
+	text-transform: lowercase
 }
 
 .trad vf {
