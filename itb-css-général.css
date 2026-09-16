@@ -58,14 +58,16 @@ x2large,
 	--gradient23-50: linear-gradient(to left, var(--co2-50), var(--co3-50));
 }
 
-fslarge {
-	font-size: var(--large)
+fssmalll {
+	font-size: var(--small)
 }
 
-.fa_like_list {
-	max-width: 300px;
-	max-height: 30px;
-	overflow: auto
+fsmedium {
+	font-size: var(--medium)
+}
+
+fslarge {
+	font-size: var(--large)
 }
 
 .posttabsystem {
