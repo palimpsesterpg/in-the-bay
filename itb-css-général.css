@@ -5470,3 +5470,12 @@ lblpmdn {
 	display: flex;
 	gap: var(--large)
 }
+
+.minipostprofile .tooltip-rank {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding: var(--large);
+	letter-spacing: var(--2xsmall);
+	font-weight: 300;
+}
