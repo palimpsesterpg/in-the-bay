@@ -4081,12 +4081,12 @@ p {
 }
 
 .notiffi_news {
-    height: -webkit-fill-available;
-    flex: 1;
-    padding: var(--large);
-    position: relative;
-    margin-top: 34px;
-    background-color: var(--group-color-100, var(--co1-100));
+	height: -webkit-fill-available;
+	flex: 1;
+	padding: var(--large);
+	position: relative;
+	margin-top: 34px;
+	background-color: var(--group-color-100, var(--co1-100));
 }
 
 .signature_div:before {
@@ -5465,5 +5465,6 @@ lblpmdn {
 }
 
 .minipostprofile {
-	flex: 1
+	flex: 1 1 100%;
+	display: flex;
 }
