@@ -3628,7 +3628,9 @@ pblocgc,
 	font-family: var(--main);
 	position: absolute;
 	padding: var(--large);
-	width: 400px;
+	font-size: var(--small);
+	width: 300px;
+	border: 0.5px solid;
 	height: fit-content;
 	background-color: var(--light);
 	text-align: justify
@@ -3636,7 +3638,7 @@ pblocgc,
 
 .fa_like_div:hover .fa_like_list {
 	display: block;
-	bottom: -1rem;
+	top: var(--2xlarge);
 	right: 50%;
 	transform: translateX(50%)
 }
@@ -3806,7 +3808,7 @@ chronoevent strong {
 	font-weight: 100
 }
 
-dy.post#forum_rules {
+.post#forum_rules {
 	flex-direction: column;
 	gap: 0px !important
 }
