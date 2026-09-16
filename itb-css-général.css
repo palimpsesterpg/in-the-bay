@@ -4074,8 +4074,12 @@ p {
 	content: "liens utiles"
 }
 
-.notiffi_links:before {
+.notiffi_news:before {
 	content: "what's up sunnyvale ?"
+}
+
+.notiffi_links:before {
+	content: "liens utiles"
 }
 
 .notiffi_notiflist {
