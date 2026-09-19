@@ -277,6 +277,7 @@ fslarge {
 .fichepl,
 .ficherec,
 .fichefam,
+.fichepredef,
 .ficheadmin {
 	gap: var(--large);
 	align-items: center;
@@ -286,15 +287,15 @@ fslarge {
 	flex-direction: column
 }
 
-.group-7 .fichefam serifi1 {
+.fichepredef serifi1 {
 	color: var(--co1-700)
 }
 
-.group-7 .fichefam serifi2 {
+.fichepredef serifi2 {
 	color: var(--co2-700)
 }
 
-.group-7 .fichefam borderd {
+.fichepredef borderd {
 	display: block;
 	margin-top: var(--2xsmall);
 	width: fit-content
@@ -801,7 +802,7 @@ reclinks a:after {
 	margin-left: var(--5xlarge)
 }
 
-.group-7 .fichefam mainb4 {
+.fichepredef mainb4 {
 	font-weight: 500
 }
 
@@ -3118,14 +3119,14 @@ majgc::first-letter {
 	border-radius: 100%
 }
 
-.group-7 .fichefam varb1,
-.group-7 .fichefam varb2 {
+.fichepredef varb1,
+.fichepredef varb2 {
 	font-size: var(--large);
 	letter-spacing: 1px;
 	text-transform: uppercase
 }
 
-.group-7 .fichefam lback1 {
+.fichepredef lback1 {
 	text-transform: lowercase;
 	font-weight: 300;
 	letter-spacing: 2.5px;
@@ -3134,7 +3135,7 @@ majgc::first-letter {
 	font-size: var(--large)
 }
 
-.group-7 .fichefam mainb2 {
+.fichepredef mainb2 {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
