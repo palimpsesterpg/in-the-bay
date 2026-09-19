@@ -296,6 +296,11 @@ fslarge {
 	color: var(--co2-700)
 }
 
+.group-7 .fichefam borderd {
+	display: block;
+	margin-top: var(--2xsmall)
+}
+
 .headperso,
 .headpl,
 .headrec {
