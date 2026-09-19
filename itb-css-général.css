@@ -3128,11 +3128,17 @@ majgc::first-letter {
 }
 
 .group-7 .fichefam lback1 {
-	text-transform: uppercase;
+	text-transform: lowercase;
+	font-weight: 300;
 	letter-spacing: 2.5px;
 	padding: 2.5px var(--xlarge) 2.5px calc(var(--xlarge) + 2.5px);
 	margin-left: var(--large);
 	font-size: var(--large)
+}
+
+.group-7 .fichefam mainb2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 .tabicon {
