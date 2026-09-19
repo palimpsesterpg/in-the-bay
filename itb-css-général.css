@@ -301,7 +301,7 @@ fslarge {
 }
 
 .fichepredef .posttabs {
-	width: 200px;
+	width: 100px;
 	flex-direction: column;
 	text-transform: uppercase;
 	color: var(--co3);
