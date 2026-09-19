@@ -290,8 +290,15 @@ fslarge {
 .fichepredef,
 .ficheadmin {
 	padding: var(--2xlarge);
-	border: 1px solid var(--neutral);
+	border: 0.5px solid var(--neutral);
 	outline: var(--large) solid var(--darklight);
+	margin-top: var(--large);
+}
+
+.ficheperso {
+	padding: var(--2xlarge);
+	border: 1px solid var(--group-color, var(--neutral));
+	outline: var(--large) solid var(--group-color-50, var(--darklight));
 	margin-top: var(--large);
 }
 
