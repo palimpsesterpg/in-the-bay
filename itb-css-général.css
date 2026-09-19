@@ -295,6 +295,23 @@ fslarge {
 	margin-top: var(--large);
 }
 
+.fichepredef .posttabsystem.textlisting {
+	flex-direction: row;
+	align-items: flex-start
+}
+
+.fichepredef .posttabs {
+	width: 200px;
+	flex-direction: column;
+	text-transform: uppercase;
+	color: var(--co3);
+	font-weight: 900;
+}
+
+.fichepredef .posttab-content {
+	flex: 1
+}
+
 .fichepredef serifi1 {
 	color: var(--co1-700)
 }
