@@ -404,10 +404,10 @@ fslarge {
 }
 
 .imganec {
-	height: 125px;
-	width: 75px;
+	height: 100px;
+	width: 150px;
 	object-fit: cover;
-	margin: 0 var(--xsmall)
+	margin: 0 var(--small)
 }
 
 .blocperso.one {
