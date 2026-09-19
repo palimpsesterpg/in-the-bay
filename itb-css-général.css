@@ -310,7 +310,7 @@ fslarge {
 	margin-top: var(--large);
 }
 
-.fichepredef .posttabsystem.textlisting {
+.fichepredef .posttabsystem {
 	flex-direction: row;
 	padding: var(--2xlarge);
 	align-items: flex-start
