@@ -312,6 +312,7 @@ fslarge {
 
 .fichepredef .posttabsystem.textlisting {
 	flex-direction: row;
+	padding: var(--2xlarge);
 	align-items: flex-start
 }
 
