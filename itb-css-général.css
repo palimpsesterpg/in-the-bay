@@ -248,8 +248,14 @@ fslarge {
 	text-transform: uppercase;
 	letter-spacing: var(--2xsmall);
 	padding-left: var(--2xsmall);
-	font-weight: 200;
+	font-weight: 300;
 	color: var(--co1)
+}
+
+.imgfam {
+	width: 100%;
+	height: 200px;
+	object-fit: cover
 }
 
 .contentfam {
@@ -288,6 +294,7 @@ fslarge {
 }
 
 .fichepredef,
+.fichefam,
 .ficheadmin {
 	padding: var(--2xlarge);
 	border: 0.5px solid var(--neutral);
@@ -331,6 +338,26 @@ fslarge {
 	display: block;
 	margin-top: var(--2xsmall);
 	width: fit-content
+}
+
+.titrepredef {
+	font-size: var(--2xlarge);
+	text-align: center;
+	font-family: var(--var);
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: var(--2xsmall);
+	padding-left: var(--2xsmall);
+	color: var(--co2);
+}
+
+.sstitrepredef {
+	text-align: center;
+	text-transform: lowercase;
+	letter-spacing: var(--2xsmall);
+	padding-left: var(--2xsmall);
+	font-weight: 700;
+	color: var(--co1)
 }
 
 .headpl,
@@ -3527,28 +3554,6 @@ pblocgc,
 	object-fit: cover;
 	width: 100px;
 	height: 100px
-}
-
-.fichefam center:has(.icon50),
-.fichefam center:has(.icon75),
-.fichefam center:has(.icon100),
-.fichefam center:has(.logo50),
-.fichefam center:has(.logo75),
-.fichefam center:has(.logo100) {
-	display: flex;
-	width: 100%;
-	margin: var(--large) 0;
-	justify-content: space-evenly
-}
-
-.fichefam .icon50,
-.fichefam .icon75,
-.fichefam .icon100,
-.fichefam .logo50,
-.fichefam .logo75,
-.fichefam .logo100 {
-	outline: var(--small) solid var(--white);
-	margin: var(--small)
 }
 
 .logo50,
