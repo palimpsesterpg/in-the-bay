@@ -258,7 +258,8 @@ fslarge {
 	object-fit: cover
 }
 
-.contentfam {
+.contentfam,
+.contentpredef {
 	width: 100%
 }
 
