@@ -4089,6 +4089,61 @@ p {
 	background-color: var(--group-color-100, var(--co1-100));
 }
 
+.notiffi_body {
+	display: flex;
+	width: 100%;
+	gap: var(--large);
+	flex-wrap: wrap
+}
+
+.notiffi_body_admin {
+	position: relative;
+	padding: var(--large);
+	width: 50%;
+	margin-top: 34px;
+	background: var(--white);
+	text-align: justify
+}
+
+.notiffi_body_admin div {
+	height: 68px;
+	overflow: auto
+}
+
+.notiffi_body_admin:after {
+	position: absolute;
+	content: '1';
+	font-weight: 700;
+	right: var(--small);
+	top: var(--small);
+	color: var(--group-color, var(--co1))
+}
+
+.notiffi_body_admin strong {
+	color: var(--co3);
+	font-family: var(--var);
+	font-weight: 700;
+	font-size: var(--large)
+}
+
+.notiffi_body_admin i {
+	color: var(--co3);
+	font-family: var(--serif);
+	letter-spacing: 1px
+}
+
+.notiffi_body_admin u {
+	color: var(--co3);
+	text-decoration: none;
+	box-shadow: inset 0 -8px 0 var(--co3-50);
+	font-family: var(--mono)
+}
+
+.notiffi_body_admin a {
+	color: var(--co3);
+	font-weight: 500
+}
+
 .signature_div:before {
 	position: absolute;
 	content: "";
@@ -5478,4 +5533,6 @@ lblpmdn {
 	font-weight: 300;
 }
 
-.minipostprofile .tooltip-rank br {display: none}
+.minipostprofile .tooltip-rank br {
+	display: none
+}
