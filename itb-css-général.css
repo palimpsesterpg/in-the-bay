@@ -4491,13 +4491,10 @@ p {
 }
 
 .ficheperso.first {
-	width: 75%;
+	width: 100%;
 	align-items: stretch;
-	border: 1px solid var(--group-color);
 	flex-direction: row !important;
 	justify-content: center;
-	padding: var(--large);
-	margin: 0 auto
 }
 
 .ficheperso.first img {
