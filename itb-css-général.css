@@ -287,6 +287,14 @@ fslarge {
 	flex-direction: column
 }
 
+.fichepredef,
+.ficheadmin {
+	padding: var(--2xlarge);
+	border: 1px solid var(--neutral);
+	outline: var(--large) solid var(--darklight);
+	margin-top: var(--large);
+}
+
 .fichepredef serifi1 {
 	color: var(--co1-700)
 }
@@ -3135,7 +3143,8 @@ majgc::first-letter {
 	font-size: var(--large)
 }
 
-.fichepredef mainb1, .fichepredef mainb2 {
+.fichepredef mainb1,
+.fichepredef mainb2 {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
