@@ -298,7 +298,8 @@ fslarge {
 
 .group-7 .fichefam borderd {
 	display: block;
-	margin-top: var(--2xsmall)
+	margin-top: var(--2xsmall);
+	width: fit-content
 }
 
 .headperso,
