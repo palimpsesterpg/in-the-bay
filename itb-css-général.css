@@ -3135,7 +3135,7 @@ majgc::first-letter {
 	font-size: var(--large)
 }
 
-.fichepredef mainb2 {
+.fichepredef mainb1, .fichepredef mainb2 {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
