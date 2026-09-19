@@ -344,7 +344,7 @@ fslarge {
 .headperso {
 	display: flex;
 	flex-wrap: wrap;
-	gap: var(--2xlarge);
+	gap: var(--large);
 	justify-content: center;
 }
 
@@ -360,6 +360,8 @@ fslarge {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	gap: var(--small);
 	flex-direction: column
 }
 
