@@ -237,12 +237,10 @@ fslarge {
 	text-align: center;
 	font-family: var(--var);
 	text-transform: lowercase;
-	font-weight: 700;
+	font-weight: 900;
 	letter-spacing: var(--2xsmall);
-	width: 100%;
-	padding: var(--large) 0 var(--large) var(--2xsmall);
+	padding-left: var(--2xsmall);
 	color: var(--co2);
-	background: #ffffff
 }
 
 .sstitrefam {
