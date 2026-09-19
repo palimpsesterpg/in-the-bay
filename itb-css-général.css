@@ -826,6 +826,7 @@ borderbin,
 borderbid,
 borderbigc {
 	border: 0.5px solid;
+	font-weight: 300;
 	padding: 0.25rem var(--xlarge)
 }
 
