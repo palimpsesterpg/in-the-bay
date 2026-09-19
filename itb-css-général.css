@@ -326,13 +326,19 @@ fslarge {
 	width: fit-content
 }
 
-.headperso,
 .headpl,
 .headrec {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	width: calc(100% - 2rem)
+}
+
+.headperso {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--2xlarge);
+	justify-content: center;
 }
 
 .quoteperso {
@@ -347,10 +353,6 @@ fslarge {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: var(--darkneutral);
-	font-size: var(--small);
-	margin-top: var(--small);
-	line-height: 1.5rem;
 	flex-direction: column
 }
 
@@ -371,11 +373,24 @@ fslarge {
 	padding-left: 0.15rem
 }
 
+.pseudoperso pronom {
+	color: var(--darkneutral);
+	font-size: var(--small);
+}
+
+.pseudoperso pronom:before {
+	content: '('
+}
+
+.pseudoperso pronom:after {
+	content: ')'
+}
+
 .headperso img,
 .headrec img {
-	width: 125px;
+	width: 150px;
 	border-radius: var(--2xsmall);
-	height: 75px;
+	height: 200px;
 	object-fit: cover
 }
 
