@@ -323,8 +323,8 @@ fslarge {
 	font-weight: 900;
 }
 
-.fichepredef .posttab-content {
-	flex: 1
+.fichepredef .textlisting {
+	padding: var(--2xlarge)
 }
 
 .fichepredef serifi1 {
