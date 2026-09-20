@@ -293,8 +293,8 @@ fslarge {
 	display: none;
 	color: var(--whiteop75);
 	font-weight: 900;
-	letter-spacing: 2.5px;
-	padding-left: 2.5px;
+	letter-spacing: 1px;
+	padding-left: 1px;
 	font-family: var(--var);
 	font-size: var(--5xlarge);
 	position: absolute
