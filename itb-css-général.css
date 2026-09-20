@@ -255,12 +255,24 @@ fslarge {
 .imgfam {
 	display: flex;
 	gap: var(--large);
+	width: 100%;
 }
 
 .imgfam img {
 	width: 1 1 50%;
 	height: 200px;
 	object-fit: cover
+}
+
+.fichepl .posttabs,
+.fichefam .posttabs {
+	font-size: var(--xlarge);
+	color: var(--darkneutral)
+}
+
+.fichepl .posttabs .active,
+.fichefam .posttabs .active {
+	color: var(--co3)
 }
 
 .contentfam,
