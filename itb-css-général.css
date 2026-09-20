@@ -446,18 +446,13 @@ fslarge {
 }
 
 .headpl,
-.headrec {
+.headrec,
+.headperso {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: calc(100% - 2rem)
-}
-
-.headperso {
-	display: flex;
-	flex-wrap: wrap;
 	gap: var(--large);
-	justify-content: center;
+	width: 100%
 }
 
 .quoteperso {
@@ -710,11 +705,6 @@ blockquote.blocperso {
 	display: inline-block
 }
 
-.headpl,
-.headrec {
-	gap: var(--large)
-}
-
 .headpl div {
 	display: flex;
 	flex-direction: column;
@@ -736,9 +726,14 @@ blockquote.blocperso {
 	letter-spacing: 2.5px
 }
 
+.headpl img:first-of-type {
+	width: 100px;
+}
+
 .headpl img {
-	height: 75px;
-	width: 75px;
+	height: 100px;
+	width: 150px;
+	border-radius: var(--2xsmall);
 	object-fit: cover
 }
 
