@@ -259,19 +259,22 @@ fslarge {
 }
 
 .imgfam img {
-	width: 1 1 50%;
+	flex: 1 1 50%;
 	height: 200px;
+	filter: grayscale(1);
 	object-fit: cover
 }
 
-.fichepl .posttabs,
-.fichefam .posttabs {
+.imgfam img.active {
+	filter: grayscale(0)
+}
+
+.fichepl .posttabs {
 	font-size: var(--xlarge);
 	color: var(--darkneutral)
 }
 
-.fichepl .posttabs .active,
-.fichefam .posttabs .active {
+.fichepl .posttabs .active {
 	color: var(--co3)
 }
 
