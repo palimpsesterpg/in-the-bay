@@ -293,6 +293,7 @@ fslarge {
 	display: none;
 	color: var(--whiteop75);
 	font-weight: 900;
+	z-index: 999;
 	letter-spacing: 1px;
 	padding-left: 1px;
 	font-family: var(--var);
