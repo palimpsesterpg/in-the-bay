@@ -285,7 +285,7 @@ fslarge {
 	content: "attentes";
 }
 
-.fichefam .posttab:content {
+.fichefam .posttab:before {
 	display: none;
 	color: var(--white);
 	text-shadow: 1px 1px var(--lightdark);
