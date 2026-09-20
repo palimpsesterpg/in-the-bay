@@ -277,15 +277,15 @@ fslarge {
 	filter: grayscale(0)
 }
 
-.imgfam img:first-of-type:content {
+.fichefam .posttab:first-of-type:content {
 	content: "personnages";
 }
 
-.imgfam img:last-of-type:content {
+.fichefam .posttab:last-of-type:content {
 	content: "attentes";
 }
 
-.imgfam img:content {
+.fichefam .posttab:content {
 	display: none;
 	color: var(--white);
 	text-shadow: 1px 1px var(--lightdark);
@@ -295,7 +295,7 @@ fslarge {
 	position: absolute
 }
 
-.imgfam img:hover:content {
+.fichefam .posttab:hover:content {
 	display: block
 }
 
