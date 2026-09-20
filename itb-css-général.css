@@ -259,7 +259,11 @@ fslarge {
 }
 
 .fichefam .posttab {
-	flex: 1
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
 }
 
 .imgfam img {
@@ -287,11 +291,12 @@ fslarge {
 
 .fichefam .posttab:before {
 	display: none;
-	color: var(--white);
-	text-shadow: 1px 1px var(--lightdark);
-	font-size: 900;
+	color: var(--whiteop75);
+	font-weight: 900;
+	letter-spacing: 2.5px;
+	padding-left: 2.5px;
 	font-family: var(--var);
-	font-size: var(--large);
+	font-size: var(--5xlarge);
 	position: absolute
 }
 
