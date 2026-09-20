@@ -277,11 +277,11 @@ fslarge {
 	filter: grayscale(0)
 }
 
-.fichefam .posttab:first-of-type:content {
+.fichefam .posttab:first-of-type:before {
 	content: "personnages";
 }
 
-.fichefam .posttab:last-of-type:content {
+.fichefam .posttab:last-of-type:before {
 	content: "attentes";
 }
 
@@ -295,7 +295,7 @@ fslarge {
 	position: absolute
 }
 
-.fichefam .posttab:hover:content {
+.fichefam .posttab:hover:before {
 	display: block
 }
 
