@@ -262,11 +262,31 @@ fslarge {
 	flex: 1 1 50%;
 	height: 200px;
 	filter: grayscale(1);
-	object-fit: cover
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative object-fit: cover
 }
 
-.imgfam img.active {
+.imgfam .active img {
 	filter: grayscale(0)
+}
+
+.imgfam img:first-child:content {
+	content: "personnages";
+	display: none;
+	color: var(--white);
+	text-shadow: 1px 1px var(--lightdark);
+	font-size: 900;
+	font-family: var(--var);
+	font-size: var(--large);
+	position: absolute
+}
+
+.fichefam mainbd {
+	text-transform: lowercase;
+	letter-spacing: 2.5px;
+	border-bottom: 0.5px solid var(--neutral)
 }
 
 .fichepl .posttabs {
