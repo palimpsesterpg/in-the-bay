@@ -308,6 +308,7 @@ fslarge {
 .fichefam mainbd {
 	text-transform: lowercase;
 	letter-spacing: 2.5px;
+	padding-left: 2.5px;
 	border-bottom: 0.5px solid var(--neutral)
 }
 
