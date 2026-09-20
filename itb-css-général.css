@@ -272,8 +272,15 @@ fslarge {
 	filter: grayscale(0)
 }
 
-.imgfam img:first-child:content {
+.imgfam img:first-of-type:content {
 	content: "personnages";
+}
+
+.imgfam img:last-of-type:content {
+	content: "attentes";
+}
+
+.imgfam img:content {
 	display: none;
 	color: var(--white);
 	text-shadow: 1px 1px var(--lightdark);
@@ -281,6 +288,10 @@ fslarge {
 	font-family: var(--var);
 	font-size: var(--large);
 	position: absolute
+}
+
+.imgfam img:hover:content {
+	display: block
 }
 
 .fichefam mainbd {
@@ -296,6 +307,21 @@ fslarge {
 
 .fichepl .posttabs .active {
 	color: var(--co3)
+}
+
+.codeslisting {
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%
+}
+
+.codeslistingmini {
+	display: flex;
+	gap: var(--small);
+	flex-direction: column;
+	align-items: center
 }
 
 .contentfam,
