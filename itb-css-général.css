@@ -4111,6 +4111,7 @@ p {
 
 .notiffi_main {
 	display: flex;
+	flex: 1;
 	flex-direction: column;
 	gap: var(--large);
 	align-items: start;
