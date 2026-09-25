@@ -514,9 +514,9 @@ fslarge {
 
 .headperso img,
 .headrec img {
-	width: 200px;
+	width: 350px;
 	border-radius: var(--2xsmall);
-	height: 350px;
+	height: 400px;
 	object-fit: cover
 }
 
