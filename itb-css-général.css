@@ -3810,10 +3810,12 @@ pblocgc,
 }
 
 .rep-button {
-	border: 0px;
-	padding: 0px;
-	margin: 0px;
-	background: transparent
+    display: flex;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background: transparent;
+    align-items: center;
 }
 
 .fa_like_div:has(.fa_like_list:empty) .rep-button:after {
@@ -3821,7 +3823,7 @@ pblocgc,
 }
 
 .fa_like_list a {
-	font-weight: 200
+	font-weight: 100
 }
 
 .rep-button:after {
@@ -3830,7 +3832,7 @@ pblocgc,
 }
 
 .rep-nb {
-	margin-right: var(--2xsmall);
+	margin-right: var(--xsmall);
 	font-family: var(--serif);
 	font-weight: 700
 }
