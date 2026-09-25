@@ -3810,12 +3810,12 @@ pblocgc,
 }
 
 .rep-button {
-    display: flex;
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
-    background: transparent;
-    align-items: center;
+	display: flex;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	background: transparent;
+	align-items: center;
 }
 
 .fa_like_div:has(.fa_like_list:empty) .rep-button:after {
@@ -4637,8 +4637,13 @@ p {
 	width: fit-content;
 	text-transform: uppercase;
 	color: var(--group-color);
-	font-size: var(--large);
-	font-weight: 700
+	font-family: var(--var);
+	font-size: var(--2xlarge);
+	text-shadow: 1px 1px var(--group-color-50);
+	letter-spacing: 2.5px;
+	font-weight: 700;
+	line-height: var(--2xlarge);
+	padding-left: 2.5px
 }
 
 firstdts {
@@ -4656,13 +4661,13 @@ firstdts:before {
 .ficheperso.first a {
 	background: linear-gradient(to right,
 			var(--group-color-300),
-			var(--group-color-700));
+			var(--group-color-600));
 	color: var(--white);
-	padding: 0 var(--2xsmall);
+	padding: 0 var(--small);
 	text-transform: uppercase;
 	text-align: right;
-	letter-spacing: 5px;
-	font-weight: 100
+	font-family: var(--serif);
+	letter-spacing: 5px
 }
 
 .d-none {
