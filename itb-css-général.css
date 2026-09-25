@@ -5981,7 +5981,7 @@ lblpmdn {
 }
 
 .minipostprofile .postprofile-contact i:before {
-	padding: 2.5px;
+	padding: 5px;
 	background: var(--group-color-50);
 	border-radius: 50%
 }
