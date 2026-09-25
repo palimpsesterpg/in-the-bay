@@ -4594,12 +4594,15 @@ p {
 }
 
 .ficheperso.first img {
-	height: auto;
-	width: 250px;
-	border-radius: var(--small) var(--2xsmall);
-	padding: var(--large);
-	border: 0.5px solid var(--white);
-	object-fit: cover
+    height: auto;
+    width: 250px;
+    border-radius: var(--small) var(--large);
+    padding: var(--large);
+    border: 4.5px solid var(--white);
+    margin: 0.5px;
+    box-sizing: border-box;
+    object-fit: cover;
+    outline: 0.5px solid var(--group-color-50);
 }
 
 .ficheperso.first>div {
