@@ -4663,7 +4663,7 @@ firstdts:before {
 			var(--group-color-300),
 			var(--group-color-600));
 	color: var(--white);
-	padding: 0 var(--small);
+	padding: 2.5px var(--small);
 	text-transform: uppercase;
 	text-align: right;
 	font-family: var(--serif);
