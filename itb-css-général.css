@@ -125,39 +125,39 @@ fslarge {
 }
 
 .group-4 {
---group-color-50: #F3F4DB;
---group-color-100: #E6E9B8;
---group-color-200: #DADD94;
---group-color-300: #CDD271;
---group-color-400: #C1C74D;
---group-color: #A7AD37;
---group-color-600: #8C912E;
---group-color-700: #707425;
---group-color-800: #54571C;
+	--group-color-50: #F3F4DB;
+	--group-color-100: #E6E9B8;
+	--group-color-200: #DADD94;
+	--group-color-300: #CDD271;
+	--group-color-400: #C1C74D;
+	--group-color: #A7AD37;
+	--group-color-600: #8C912E;
+	--group-color-700: #707425;
+	--group-color-800: #54571C
 }
 
 .group-5 {
---group-color-50: #F7E5D2;
---group-color-100: #EECBA5;
---group-color-200: #E6B177;
---group-color-300: #DE964A;
---group-color-400: #CD7C26;
---group-color: #9E5F1D;
---group-color-600: #855018;
---group-color-700: #6A4013;
---group-color-800: #50300F;
+	--group-color-50: #F7E5D2;
+	--group-color-100: #EECBA5;
+	--group-color-200: #E6B177;
+	--group-color-300: #DE964A;
+	--group-color-400: #CD7C26;
+	--group-color: #9E5F1D;
+	--group-color-600: #855018;
+	--group-color-700: #6A4013;
+	--group-color-800: #50300F
 }
 
 .group-6 {
---group-color-50: #E7EFF1;
---group-color-100: #D0DEE3;
---group-color-200: #B8CED5;
---group-color-300: #A1BDC8;
---group-color-400: #89ADBA;
---group-color: #729DAD;
---group-color-600: #588596;
---group-color-700: #466B78;
---group-color-800: #35505A;
+	--group-color-50: #E7EFF1;
+	--group-color-100: #D0DEE3;
+	--group-color-200: #B8CED5;
+	--group-color-300: #A1BDC8;
+	--group-color-400: #89ADBA;
+	--group-color: #729DAD;
+	--group-color-600: #588596;
+	--group-color-700: #466B78;
+	--group-color-800: #35505A
 }
 
 .group-def {
@@ -240,7 +240,7 @@ fslarge {
 	font-weight: 900;
 	letter-spacing: var(--2xsmall);
 	padding-left: var(--2xsmall);
-	color: var(--co2);
+	color: var(--co2)
 }
 
 .sstitrefam {
@@ -255,7 +255,7 @@ fslarge {
 .imgfam {
 	display: flex;
 	gap: var(--large);
-	width: 100%;
+	width: 100%
 }
 
 .fichefam .posttab {
@@ -263,7 +263,7 @@ fslarge {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: relative;
+	position: relative
 }
 
 .imgfam img {
@@ -282,11 +282,11 @@ fslarge {
 }
 
 .fichefam .posttab:first-of-type:before {
-	content: "personnages";
+	content: "personnages"
 }
 
 .fichefam .posttab:last-of-type:before {
-	content: "attentes";
+	content: "attentes"
 }
 
 .fichefam .posttab:before {
@@ -377,7 +377,7 @@ fslarge {
 	padding: var(--2xlarge);
 	border: 0.5px solid var(--darkneutral);
 	outline: var(--large) solid var(--darklight);
-	margin-top: var(--large);
+	margin-top: var(--large)
 }
 
 .fichepredef,
@@ -385,14 +385,14 @@ fslarge {
 	padding: var(--2xlarge);
 	border: 0.5px solid var(--neutral);
 	outline: var(--large) solid var(--white);
-	margin-top: var(--large);
+	margin-top: var(--large)
 }
 
 .ficheperso {
 	padding: var(--2xlarge);
 	border: 1px solid var(--group-color, var(--neutral));
 	outline: var(--large) solid var(--group-color-50, var(--darklight));
-	margin-top: var(--large);
+	margin-top: var(--large)
 }
 
 .fichepredef .posttabsystem {
@@ -405,7 +405,7 @@ fslarge {
 	flex-direction: column;
 	text-transform: uppercase;
 	color: var(--co3);
-	font-weight: 900;
+	font-weight: 900
 }
 
 .fichepredef .textlisting {
@@ -434,7 +434,7 @@ fslarge {
 	font-weight: 300;
 	letter-spacing: var(--2xsmall);
 	padding-left: var(--2xsmall);
-	color: var(--co2);
+	color: var(--co2)
 }
 
 .sstitrepredef {
@@ -458,7 +458,7 @@ fslarge {
 
 .headperso {
 	flex-wrap: wrap;
-	justify-content: center !important;
+	justify-content: center !important
 }
 
 .quoteperso {
@@ -737,7 +737,7 @@ blockquote.blocperso {
 }
 
 .headpl img:first-of-type {
-	width: 100px;
+	width: 100px
 }
 
 .headpl img {
@@ -3304,7 +3304,7 @@ majgc::first-letter {
 .fichepredef mainb1,
 .fichepredef mainb2 {
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 1px
 }
 
 .tabicon {
@@ -3672,7 +3672,7 @@ pblocgc,
 }
 
 .tooltip-rank celeb:before {
-	content: "\f2e0";
+	content: "\ed00";
 	font-family: uicons-thin-straight !important;
 	padding-right: var(--small);
 	color: var(--group-color, var(--co1))
@@ -3694,6 +3694,14 @@ pblocgc,
 	font-family: uicons-thin-straight !important;
 	padding-right: var(--small);
 	color: var(--group-color, var(--co1))
+}
+
+.tooltip-rank>*:before {
+	order: 3
+}
+
+.tooltip-rank>* {
+	display: flex
 }
 
 .tooltip-details a {
@@ -4512,7 +4520,7 @@ p {
 	padding: var(--large);
 	position: relative;
 	margin-top: 34px;
-	background-color: var(--group-color-100, var(--co1-100));
+	background-color: var(--group-color-100, var(--co1-100))
 }
 
 .notiffi_body {
@@ -4590,19 +4598,19 @@ p {
 	width: 100%;
 	align-items: stretch;
 	flex-direction: row !important;
-	justify-content: center;
+	justify-content: center
 }
 
 .ficheperso.first img {
-    height: auto;
-    width: 250px;
-    border-radius: var(--small) var(--large);
-    padding: var(--large);
-    border: 4.5px solid var(--white);
-    margin: 0.5px;
-    box-sizing: border-box;
-    object-fit: cover;
-    outline: 0.5px solid var(--group-color-50);
+	height: auto;
+	width: 250px;
+	border-radius: var(--small) var(--large);
+	padding: var(--large);
+	border: 4.5px solid var(--white);
+	margin: 0.5px;
+	box-sizing: border-box;
+	object-fit: cover;
+	outline: 0.5px solid var(--group-color-50)
 }
 
 .ficheperso.first>div {
@@ -5959,7 +5967,9 @@ lblpmdn {
 	padding: var(--large);
 	letter-spacing: var(--2xsmall);
 	text-transform: uppercase !important;
-	font-weight: 300;
+	align-items: flex-end;
+	font-family: var(--var);
+	font-size: var(--large)
 }
 
 .minipostprofile .tooltip-rank br {
