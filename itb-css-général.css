@@ -5979,7 +5979,7 @@ lblpmdn {
 
 .minipostprofile .tooltip-rank {
 	flex: 1;
-	padding: var(--large);
+	padding: var(--large) 0;
 	letter-spacing: var(--2xsmall);
 	text-transform: uppercase !important;
 	align-items: flex-end;
@@ -5993,6 +5993,7 @@ lblpmdn {
 
 .minipostprofile .postprofile-contact {
 	background: transparent;
+	padding: 0px
 }
 
 .minipostprofile .postprofile-contact i:before {
