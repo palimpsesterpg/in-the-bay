@@ -5975,3 +5975,13 @@ lblpmdn {
 .minipostprofile .tooltip-rank br {
 	display: none
 }
+
+.minipostprofile .postprofile-contact {
+	background: transparent;
+}
+
+.minipostprofile .postprofile-contact i:before {
+	padding: 2.5px;
+	background: var(--group-color-50);
+	border-radius: 50%
+}
