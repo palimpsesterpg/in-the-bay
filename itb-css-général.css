@@ -4595,7 +4595,10 @@ p {
 
 .ficheperso.first img {
 	height: auto;
-	width: 200px;
+	width: 250px;
+	border-radius: var(--small) var(--2xsmall);
+	padding: var(--large);
+	border: 0.5px solid var(--white);
 	object-fit: cover
 }
 
