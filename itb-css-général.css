@@ -3815,7 +3815,7 @@ pblocgc,
 	padding: 0px;
 	margin: 0px;
 	background: transparent;
-	align-items: center;
+	align-items: center
 }
 
 .fa_like_div:has(.fa_like_list:empty) .rep-button:after {
@@ -6003,7 +6003,7 @@ lblpmdn {
 }
 
 .form-line label {
-	text-transform: lowercase;
+	text-transform: uppercase;
 	font-size: var(--large);
 	font-weight: 900;
 	font-family: var(--var);
@@ -6019,14 +6019,14 @@ lblpmdn {
 	flex: 1;
 	border: 0px;
 	background-color: var(--neutral);
-	font-family: var(--mono);
+	font-family: var(--mono)
 }
 
 .form-line {
 	display: flex;
 	align-items: center;
 	gap: var(--large);
-	flex-wrap: wrap;
+	flex-wrap: wrap
 }
 
 .form-line:not(:last-of-type) {
@@ -6036,7 +6036,7 @@ lblpmdn {
 .form-line desc {
 	text-transform: uppercase;
 	font-size: var(--small);
-	letter-spacing: 2.5px;
+	letter-spacing: 2.5px
 }
 
 #form-presentation button {
@@ -6051,5 +6051,17 @@ lblpmdn {
 	font-family: var(--var);
 	color: var(--co3);
 	text-shadow: 1px 1px var(--white);
-	font-size: var(--xlarge);
+	font-size: var(--xlarge)
+}
+
+#form-presentation strong {
+	display: block;
+	width: 100%;
+	padding: 0 var(--large);
+	background: var(--co3);
+	color: var(--white);
+	font-family: var(--serif);
+	font-size: var(--large);
+	text-transform: uppercase;
+	letter-spacing: 2.5px
 }
