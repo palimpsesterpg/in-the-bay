@@ -6007,6 +6007,9 @@ lblpmdn {
 	font-size: var(--large);
 	font-weight: 900;
 	font-family: var(--var);
+	letter-spacing: 1px;
+	padding-left: 1px;
+	color: var(--co3)
 }
 
 .form-line input,
@@ -6023,8 +6026,30 @@ lblpmdn {
 	display: flex;
 	align-items: center;
 	gap: var(--large);
+	flex-wrap: wrap;
+}
+
+.form-line:not(:last-of-type) {
+	margin-bottom: var(--large)
+}
+
+.form-line desc {
 	text-transform: uppercase;
 	font-size: var(--small);
 	letter-spacing: 2.5px;
-	flex-wrap: wrap;
+}
+
+.form-presentation button {
+	border: 0.5px solid var(--co3);
+	background: var(--co3-50);
+	border-radius: var(--small);
+	padding: var(--2xsmall) var(--2xlarge);
+	margin: 0 auto;
+	display: block;
+	text-transform: lowercase;
+	font-weight: 900;
+	font-family: var(--var);
+	color: var(--co3);
+	text-shadow: 1px 1px var(--white);
+	font-size: var(--xlarge);
 }
