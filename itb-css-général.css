@@ -6055,7 +6055,7 @@ lblpmdn {
 	display: block;
 	margin-bottom: var(--large);
 	width: 100%;
-	padding: 0 var(--large);
+	padding: var(--2xsmall) var(--large);
 	background: var(--co3);
 	color: var(--white) !important;
 	font-family: var(--serif);
