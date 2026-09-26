@@ -4121,7 +4121,7 @@ p {
 	opacity: 1;
 	height: 100vh;
 	border-left: 1px solid var(--group-color, var(--co1));
-	width: 75%;
+	width: 100%;
 	outline: var(--large) solid var(--light)
 }
 
