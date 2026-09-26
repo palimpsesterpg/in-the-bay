@@ -6001,3 +6001,30 @@ lblpmdn {
 	background: var(--group-color-50);
 	border-radius: 50%
 }
+
+#fa-generated-form label {
+	padding-left: 10px;
+	background-color: var(--co1);
+	color: var(--white);
+	text-transform: uppercase;
+	width: 200px;
+	height: 25px;
+	display: inline-flex;
+	font-weight: 700;
+	border-radius: var(--xlarge);
+	align-items: center
+}
+
+#fa-generated-form input,
+#fa-generated-form select {
+	padding: 0 10px;
+	width: 300px;
+	height: 25px;
+	display: inline-flex;
+	font-weight: 300;
+	align-items: center
+}
+
+#fa-generated-form form {
+	line-height: var(--3xlarge)
+}
