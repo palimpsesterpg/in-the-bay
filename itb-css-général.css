@@ -6029,10 +6029,6 @@ lblpmdn {
 	flex-wrap: wrap
 }
 
-.form-line:not(:last-of-type) {
-	margin-bottom: var(--large)
-}
-
 .form-line desc {
 	text-transform: uppercase;
 	font-size: var(--small);
@@ -6056,6 +6052,7 @@ lblpmdn {
 
 #form-presentation strong {
 	display: block;
+	margin-bottom: var(--large);
 	width: 100%;
 	padding: 0 var(--large);
 	background: var(--co3);
