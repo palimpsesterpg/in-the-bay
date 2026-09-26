@@ -6002,25 +6002,21 @@ lblpmdn {
 	border-radius: 50%
 }
 
-#fa-generated-form label {
+.form-line label {
 	text-transform: lowercase;
 	font-size: var(--large);
 	font-weight: 900;
 	font-family: var(--var);
 }
 
-#fa-generated-form input,
-#fa-generated-form textarea,
-#fa-generated-form select {
+.form-line input,
+.form-line textarea,
+.form-line select {
 	padding: var(--2xsmall) var(--small);
 	flex: 1;
 	border: 0px;
 	background-color: var(--neutral);
 	font-family: var(--mono);
-}
-
-#fa-generated-form form {
-	line-height: var(--3xlarge)
 }
 
 .form-line {
