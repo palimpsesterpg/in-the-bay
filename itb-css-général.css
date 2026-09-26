@@ -6026,6 +6026,7 @@ lblpmdn {
 	display: flex;
 	align-items: center;
 	gap: var(--large);
+	margin-bottom: var(--large);
 	flex-wrap: wrap
 }
 
@@ -6056,7 +6057,7 @@ lblpmdn {
 	width: 100%;
 	padding: 0 var(--large);
 	background: var(--co3);
-	color: var(--white);
+	color: var(--white) !important;
 	font-family: var(--serif);
 	font-size: var(--large);
 	text-transform: uppercase;
