@@ -6036,7 +6036,8 @@ lblpmdn {
 	letter-spacing: 2.5px
 }
 
-#form-presentation button {
+#form-presentation button,
+#form-validation button {
 	border: 0.5px solid var(--co3);
 	background: var(--co3-50);
 	border-radius: var(--small);
