@@ -6033,6 +6033,7 @@ lblpmdn {
 .form-line desc {
 	text-transform: uppercase;
 	font-size: var(--small);
+	width: 100%;
 	letter-spacing: 2.5px
 }
 
