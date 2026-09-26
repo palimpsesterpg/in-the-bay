@@ -6003,28 +6003,32 @@ lblpmdn {
 }
 
 #fa-generated-form label {
-	padding-left: 10px;
-	background-color: var(--co1);
-	color: var(--white);
-	text-transform: uppercase;
-	width: 200px;
-	height: 25px;
-	display: inline-flex;
-	font-weight: 700;
-	border-radius: var(--xlarge);
-	align-items: center
+	text-transform: lowercase;
+	font-size: var(--large);
+	font-weight: 900;
+	font-family: var(--var);
 }
 
 #fa-generated-form input,
+#fa-generated-form textarea,
 #fa-generated-form select {
-	padding: 0 10px;
-	width: 300px;
-	height: 25px;
-	display: inline-flex;
-	font-weight: 300;
-	align-items: center
+	padding: var(--2xsmall) var(--small);
+	flex: 1;
+	border: 0px;
+	background-color: var(--neutral);
+	font-family: var(--mono);
 }
 
 #fa-generated-form form {
 	line-height: var(--3xlarge)
+}
+
+.form-line {
+	display: flex;
+	align-items: center;
+	gap: var(--large);
+	text-transform: uppercase;
+	font-size: var(--small);
+	letter-spacing: 2.5px;
+	flex-wrap: wrap;
 }
