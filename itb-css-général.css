@@ -3974,17 +3974,6 @@ chronoevent strong {
 	width: 100%
 }
 
-.ficheperso.status a {
-	color: var(--group-color, var(--co1));
-	width: 100%;
-	display: block;
-	text-align: center;
-	letter-spacing: 5px;
-	padding-left: 5px;
-	font-size: var(--2xlarge);
-	font-weight: 100
-}
-
 .post#forum_rules {
 	flex-direction: column;
 	gap: 0px !important
@@ -4683,6 +4672,20 @@ firstdtls:before {
 	object-fit: cover;
 }
 
+.ficheperso.status a {
+    color: var(--group-color, var(--co1));
+    width: 100%;
+    display: flex;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-left: 5px;
+    font-size: var(--2xlarge);
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+	border-top: 0.5px solid var(--group-color-50, var(--co1-50));
+}
+
 .statuspseudo {
 	width: 100%;
 	text-transform: lowercase;
@@ -4697,7 +4700,7 @@ firstdtls:before {
 }
 
 .statuscontent {
-	border: 0.5px solid;
+	border: 0.5px solid var(--group-color-50, var(--co1-50));
 	flex: 1;
 	display: flex;
 	flex-wrap: wrap;
@@ -4706,16 +4709,12 @@ firstdtls:before {
 
 statusdtls {
 	display: block;
-	border-top: 0.5px solid;
+	border-top: 0.5px solid var(--group-color-50, var(--co1-50));
 	width: 50%;
 }
 
 statusdtls:nth-of-type(odd) {
-	border-right: 0.5px solid;
-}
-
-.statuscontent a {
-	border-top: 0.5px solid;
+	border-right: 0.5px solid var(--group-color-50, var(--co1-50));
 }
 
 .ficheperso.first a {
