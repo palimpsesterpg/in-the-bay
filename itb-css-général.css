@@ -637,13 +637,6 @@ lblplyr {
 	background-color: var(--group-color-50, var(--co1-50))
 }
 
-.idperso .titletoggle,
-.idperso serifb1,
-.blocperso.four:before,
-.blocperso.four:after {
-	color: var(--group-color, var(--co1)) !important
-}
-
 .idperso .contenttoggle {
 	padding: var(--large);
 	margin: var(--2xlarge) var(--large) 0;
@@ -688,9 +681,10 @@ blockquote.blocperso {
 }
 
 .idperso .titletoggle {
-	font-size: var(--xlarge);
+	font-size: var(--2xlarge);
 	font-weight: 100;
-	color: var(--co1);
+	font-family: var(--var);
+	color: var(--group-color, var(--co1)) !important;
 	text-align: center;
 	margin-bottom: var(--large)
 }
@@ -714,7 +708,7 @@ blockquote.blocperso {
 .blocperso.four:before {
 	content: "\f2eb";
 	font-family: uicons-thin-straight !important;
-	color: var(--co1);
+	color: var(--group-color, var(--co1)) !important;
 	font-size: var(--2xlarge)
 }
 
