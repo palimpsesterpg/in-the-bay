@@ -5771,12 +5771,12 @@ statusinsta {
 }
 
 .astrocontent span:nth-of-type(odd) {
-	border-right: 0.5px solid var(--group-color-50)
+	border-right: 1px solid var(--group-color-50)
 }
 
 .astrocontent span:nth-of-type(1),
 .astrocontent span:nth-of-type(2) {
-	border-bottom: 0.5px solid var(--group-color-50)
+	border-bottom: 1px solid var(--group-color-50)
 }
 
 .astrocontent i {
