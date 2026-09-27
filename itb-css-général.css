@@ -5642,14 +5642,6 @@ statusinsta {
 	object-fit: cover
 }
 
-.ficheperso.astro {
-	width: 400px;
-	flex-direction: row;
-	background-color: var(--white);
-	padding: 0 !important;
-	gap: 0 !important
-}
-
 .ficheperso.astro img {
 	width: 200px;
 	height: 300px;
@@ -5657,6 +5649,12 @@ statusinsta {
 }
 
 .ficheperso.astro div {
+	width: 500px;
+	flex-direction: row;
+	display: flex;
+}
+
+.ficheperso.astro .astrocontent {
 	display: flex;
 	flex: 1;
 	flex-direction: column;
