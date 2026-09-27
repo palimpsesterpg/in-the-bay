@@ -4675,13 +4675,14 @@ firstdtls:nth-last-of-type(odd) {
 .ficheperso.first a {
 	background: linear-gradient(to right, var(--group-color-300), var(--group-color-600));
 	color: var(--white);
-	padding: 2.5px var(--small);
+	padding: 0 var(--small);
+	font-size: var(--small);
 	text-transform: uppercase;
 	text-align: right;
 	font-family: var(--serif);
 	width: 100%;
-	letter-spacing: 5px;
-	height: 25px;
+	letter-spacing: var(--2xsmall);
+	height: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
