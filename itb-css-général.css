@@ -5754,16 +5754,18 @@ statusinsta {
 	display: flex;
 	flex-direction: column;
 	font-family: var(--mono);
+	font-size: var(--large);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
 	font-weight: 100;
+	gap: var(--large);
 	width: 50%;
 	align-items: center;
 	text-transform: lowercase
 }
 
-.ficheperso.astro div i {
-	font-size: var(--2xlarge);
+.astrocontent i {
+	font-size: var(--3xlarge);
 	color: var(--group-color)
 }
 
