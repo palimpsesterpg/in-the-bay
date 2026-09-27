@@ -388,7 +388,10 @@ fslarge {
 	margin-top: var(--large)
 }
 
-.ficheperso {
+.ficheperso,
+.ficherec,
+.ficheinsta,
+.fichetinder {
 	padding: var(--2xlarge);
 	border: 1px solid var(--group-color, var(--neutral));
 	outline: var(--large) solid var(--group-color-50, var(--darklight));
@@ -512,11 +515,17 @@ fslarge {
 	content: ')'
 }
 
-.headperso img,
-.headrec img {
+.headperso img {
 	width: 300px;
 	border-radius: var(--2xsmall);
 	height: 400px;
+	object-fit: cover
+}
+
+.headrec img {
+	width: 200px;
+	border-radius: var(--2xsmall);
+	height: 100px;
 	object-fit: cover
 }
 
