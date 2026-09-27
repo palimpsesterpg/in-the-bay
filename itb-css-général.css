@@ -4719,7 +4719,7 @@ firstdtls:nth-last-of-type(odd) {
 	align-items: center;
 	justify-content: center;
 	text-transform: lowercase;
-	border-top: 0.5px solid var(--group-color-50, var(--co1-50))
+	border-top: 0.5px solid var(--group-color-100, var(--co1-100))
 }
 
 .statuspseudo {
