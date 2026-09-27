@@ -478,7 +478,6 @@ fslarge {
 	align-items: center;
 	justify-content: center;
 	flex: 1 1 100%;
-	gap: var(--small);
 	flex-direction: column
 }
 
@@ -487,7 +486,8 @@ fslarge {
 	color: var(--lightdark);
 	font-size: var(--3xlarge);
 	text-transform: lowercase;
-	line-height: var(--2xlarge)
+	line-height: var(--2xlarge);
+	margin-top: var(--large)
 }
 
 .pseudoperso prenom {
@@ -538,7 +538,7 @@ fslarge {
 .blocperso.one {
 	background-color: var(--white);
 	border: 1px solid var(--group-color-200, var(--co3-200));
-	padding: var(--large)
+	padding: var(--2xlarge)
 }
 
 lblprs {
@@ -662,7 +662,6 @@ lblrchrch {
 }
 
 .blocperso.two {
-	margin: 0 var(--large);
 	background-color: var(--darklight);
 	padding: var(--2xlarge)
 }

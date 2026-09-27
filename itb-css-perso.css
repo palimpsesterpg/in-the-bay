@@ -414,10 +414,6 @@
     object-fit: cover
 }
 
-.cam .blocperso.one {
-    padding: var(--2xlarge)
-}
-
 .cam .headperso img {}
 
 .cam .blocperso blspgc {
