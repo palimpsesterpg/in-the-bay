@@ -4827,8 +4827,7 @@ statusdtls:nth-of-type(odd) {
 
 .mini {
 	flex-direction: row;
-	width: 400px !important;
-	padding: var(--small);
+	padding: var(--large);
 	justify-content: flex-start
 }
 
@@ -4837,10 +4836,6 @@ statusdtls:nth-of-type(odd) {
 	color: var(--co3, var(--group-color));
 	text-transform: uppercase;
 	text-transform: 1px
-}
-
-.mini>div {
-	flex: 1
 }
 
 .headinsta {
