@@ -4658,7 +4658,7 @@ firstdtls {
 	text-transform: lowercase;
 	font-weight: 100;
 	letter-spacing: 1px;
-	padding: 2.5px 2.5px 3.5px 2.5px;
+	padding: 2.5px 1.5px 2.5px 2.5px;
 	width: 50%;
 	box-sizing: border-box;
 	display: flex;
@@ -4667,15 +4667,12 @@ firstdtls {
 	align-items: center
 }
 
-firstdtls:nth-last-of-type(even):before {
+firstdtls:nth-last-of-type(even) {
 	border-right: 2.5px solid var(--group-color-50, var(--co1-50));
 }
 
 firstdtls:nth-last-of-type(odd) {
 	justify-content: end;
-}
-
-firstdtls:nth-last-of-type(odd):after {
 	border-left: 2.5px solid var(--group-color-50, var(--co1-50));
 }
 
