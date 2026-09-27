@@ -4826,9 +4826,7 @@ statusdtls:nth-of-type(odd) {
 }
 
 .mini {
-	flex-direction: row;
-	padding: var(--large);
-	justify-content: flex-start
+	flex-direction: row
 }
 
 .mini a {
@@ -4961,8 +4959,9 @@ statusinsta {
 	position: relative;
 	display: flex;
 	align-items: center;
-	width: calc(100% / 3 - 1rem);
-	justify-content: center
+	flex: 1 1 calc(100% / 3 - 1rem);
+	aspect-ratio: 1;
+	justify-content: center;
 }
 
 .imginsta img {
@@ -4993,12 +4992,6 @@ statusinsta {
 	display: flex
 }
 
-.ficheinsta.post,
-.ficheinsta.story {
-	width: 400px;
-	gap: var(--large)
-}
-
 .ficheinsta .imgpost {
 	width: 400px;
 	height: 500px;
@@ -5013,11 +5006,9 @@ statusinsta {
 .ficheinsta.story .contentstory {
 	position: absolute;
 	padding: 0px !important;
-	top: 0;
 	width: 400px;
 	height: 500px;
 	color: #ffffff !important;
-	padding: var(--large);
 	display: flex;
 	flex-direction: column
 }
@@ -5590,7 +5581,6 @@ statusinsta {
 }
 
 .fichetinder {
-	width: 500px;
 	background-color: var(--white);
 	margin: 0 auto
 }
@@ -5654,8 +5644,8 @@ statusinsta {
 }
 
 .fichetinder .tinderimg img {
-	width: 468px;
-	height: 468px;
+	width: 400px;
+	height: 500px;
 	object-fit: cover
 }
 
