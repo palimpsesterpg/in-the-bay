@@ -5737,7 +5737,8 @@ statusinsta {
 
 .ficheperso.astro>div {
 	flex-direction: row;
-	display: flex
+	display: flex;
+	width: 100%
 }
 
 .astrocontent {
@@ -5746,7 +5747,7 @@ statusinsta {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	gap: var(--large);
+	border-top: 0.5px solid var(--group-color);
 	padding: var(--large)
 }
 
@@ -5761,7 +5762,14 @@ statusinsta {
 	gap: var(--large);
 	width: 50%;
 	align-items: center;
-	text-transform: lowercase
+	text-transform: lowercase;
+	height: 50%;
+	justify-content: center;
+	border-bottom: 0.5px solid var(--group-color)
+}
+
+.astrocontent span:nth-of-type(odd) {
+	border-right: 0.5px solid var(--group-color)
 }
 
 .astrocontent i {
