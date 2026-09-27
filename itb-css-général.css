@@ -4601,7 +4601,7 @@ p {
 }
 
 .ficheperso.first img {
-	height: 350px;
+	min-height: 350px;
 	width: 250px;
 	border-radius: var(--large) 0 0 var(--small);
 	padding: 0.5rem;
