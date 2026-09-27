@@ -4999,8 +4999,7 @@ statusinsta {
 }
 
 .ficheinsta.story {
-	position: relative;
-	padding: 0px !important
+	position: relative
 }
 
 .ficheinsta.story .contentstory {
@@ -5029,8 +5028,8 @@ statusinsta {
 }
 
 .ficheinsta.story .contentstory div,
-.ficheinsta.post .instapostdetails,
-.ficheinsta.post .instapostdetails div {
+.ficheinsta.postinsta .instapostdetails,
+.ficheinsta.postinsta .instapostdetails div {
 	width: 100%;
 	height: fit-content;
 	display: flex;
@@ -5039,13 +5038,8 @@ statusinsta {
 	gap: var(--large)
 }
 
-.ficheinsta.post .instapostdetails div {
+.ficheinsta.postinsta .instapostdetails div {
 	justify-content: flex-start
-}
-
-.ficheinsta.post {
-	background-color: var(--white);
-	padding-top: 0px !important
 }
 
 .posttext {
