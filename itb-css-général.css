@@ -4119,7 +4119,7 @@ p {
 	opacity: 1;
 	height: 100vh;
 	border-left: var(--large) solid var(--group-color, var(--co1));
-	width: 100%;
+	width: 100%
 }
 
 .notiffi_main {
@@ -4634,7 +4634,7 @@ p {
 	border: 0.5px solid var(--group-color-50, var(--co1-50));
 	display: flex;
 	width: 100%;
-	border-radius: var(--large) var(--small) var(--large) var(--small);
+	border-radius: var(--large) var(--small) var(--large) var(--small)
 }
 
 .firstpseudo {
@@ -4675,8 +4675,6 @@ firstdtls:nth-last-of-type(odd):after {
 	content: "—"
 }
 
-
-
 .ficheperso.status>div {
 	display: flex;
 	align-items: center;
@@ -4690,7 +4688,7 @@ firstdtls:nth-last-of-type(odd):after {
 .ficheperso.status img {
 	width: 200px;
 	object-fit: cover;
-	height: -webkit-fill-available;
+	height: -webkit-fill-available
 }
 
 .ficheperso.status a {
@@ -4704,7 +4702,7 @@ firstdtls:nth-last-of-type(odd):after {
 	align-items: center;
 	justify-content: center;
 	text-transform: lowercase;
-	border-top: 0.5px solid var(--group-color-50, var(--co1-50));
+	border-top: 0.5px solid var(--group-color-50, var(--co1-50))
 }
 
 .statuspseudo {
@@ -4721,7 +4719,7 @@ firstdtls:nth-last-of-type(odd):after {
 	line-height: var(--2xlarge);
 	padding-left: 5px;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .statuscontent {
@@ -4742,11 +4740,11 @@ statusdtls {
 	justify-content: center;
 	font-family: var(--serif);
 	text-transform: uppercase;
-	border-top: 0.5px solid var(--group-color-100, var(--co1-100));
+	border-top: 0.5px solid var(--group-color-100, var(--co1-100))
 }
 
 statusdtls:nth-of-type(odd) {
-	border-right: 0.5px solid var(--group-color-100, var(--co1-100));
+	border-right: 0.5px solid var(--group-color-100, var(--co1-100))
 }
 
 .ficheperso.first a {
@@ -5734,7 +5732,7 @@ statusinsta {
 .ficheperso.astro>div {
 	width: 500px;
 	flex-direction: row;
-	display: flex;
+	display: flex
 }
 
 .ficheperso.astro .astrocontent {
@@ -6151,5 +6149,5 @@ lblpmdn {
 	color: var(--white) !important;
 	font-family: var(--serif);
 	font-size: var(--large);
-	text-transform: uppercase;
+	text-transform: uppercase
 }
