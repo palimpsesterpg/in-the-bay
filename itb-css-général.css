@@ -487,7 +487,7 @@ fslarge {
 	color: var(--lightdark);
 	font-size: var(--3xlarge);
 	text-transform: lowercase;
-	line-height: var(--xlarge)
+	line-height: var(--2xlarge)
 }
 
 .pseudoperso prenom {
