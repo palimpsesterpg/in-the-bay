@@ -4630,7 +4630,7 @@ p {
 	object-fit: cover
 }
 
-.ficheperso.first>div {
+.firstcontent {
 	flex: 1;
 	padding: var(--large);
 	border-radius: 0 var(--small) var(--large) 0;
@@ -4638,6 +4638,10 @@ p {
 	display: flex;
 	flex-direction: column;
 	gap: var(--2xsmall)
+}
+
+.ficheperso.first>div {
+	border: 0.5px solid;
 }
 
 .pseudofirst {
@@ -4666,6 +4670,18 @@ firstdtls:before {
 	content: "—"
 }
 
+.ficheperso.status>div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1
+}
+
+.ficheperso.status img {
+	width: 200px;
+	object-fit: cover;
+}
+
 .statuspseudo {
 	margin: 0 auto;
 	width: fit-content;
@@ -4686,8 +4702,8 @@ firstdtls:before {
 
 statusdtls {
 	border: 0.5px solid;
-	padding: var(--large);
-	box-sizing: border-box
+	display: block;
+	width: 50%;
 }
 
 .ficheperso.first a {
