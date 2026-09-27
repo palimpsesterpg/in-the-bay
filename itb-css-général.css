@@ -4655,6 +4655,7 @@ firstdtls {
 	text-transform: lowercase;
 	font-weight: 100;
 	letter-spacing: 2.5px;
+	padding-left: 2.5px;
 	width: calc(50% - var(--2xsmall));
 	box-sizing: border-box;
 	display: block;
