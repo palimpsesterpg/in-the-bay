@@ -4619,7 +4619,7 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	height: -webkit-fill-available;
-	gap: var(--2xsmall);
+	row-gap: var(--large);
 	align-content: space-between
 }
 
@@ -4652,7 +4652,7 @@ firstdtls {
 	text-transform: lowercase;
 	font-weight: 100;
 	letter-spacing: 1px;
-	width: calc(50% - var(--2xsmall) / 2);
+	width: 50%;
 	box-sizing: border-box;
 	display: flex;
 	color: var(--group-color);
@@ -4754,8 +4754,9 @@ firstdtls:nth-last-of-type(odd) {
 
 statusdtls {
 	width: 50%;
+	padding: var(--large);
 	display: flex;
-	height: 50px;
+	height: 75px;
 	box-sizing: border-box;
 	align-items: center;
 	justify-content: center;
@@ -5642,6 +5643,7 @@ statusinsta {
 .tindermisc span {
 	height: 25px;
 	padding: 0 var(--large);
+	font-family: var(--var);
 	overflow: hidden;
 	background: var(--group-color-50);
 	color: var(--group-color);
@@ -5715,7 +5717,7 @@ statusinsta {
 }
 
 .fichetinder .tindermoodbd img {
-	flex: 1 1 calc(100% / 3 - 1rem);
+	width: calc(100% / 3 - 0.65rem);
 	aspect-ratio: 1;
 	object-fit: cover
 }
