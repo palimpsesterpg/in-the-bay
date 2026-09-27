@@ -4825,6 +4825,19 @@ statusdtls:nth-of-type(odd) {
 	padding: var(--2xlarge);
 }
 
+.ficheinsta.postinsta {
+	gap: 0px
+}
+
+.instapostcontent {
+	width: 400px;
+	padding: var(--large);
+	background: var(--white);
+	display: flex;
+	flex-direction: column;
+	gap: var(--large)
+}
+
 .mini {
 	flex-direction: row
 }
