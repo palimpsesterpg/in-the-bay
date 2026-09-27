@@ -5587,6 +5587,16 @@ statusinsta {
 	justify-content: center
 }
 
+.tinderbody {
+	width: 400px;
+	gap: var(--large);
+	display: flex;
+	flex-direction: column;
+	background: var(--white);
+	padding: var(--large);
+	padding-top: 0px
+}
+
 .fichetinder .tinderhead {
 	width: 100%;
 	display: flex;
