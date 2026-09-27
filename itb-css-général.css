@@ -4625,9 +4625,9 @@ p {
 	border-radius: 0 var(--small) var(--large) 0;
 	background-color: var(--white);
 	display: flex;
-	flex-direction: column;
+	gap: var(--2xsmall);
 	flex-wrap: wrap;
-	gap: var(--2xsmall)
+	align-content: center;
 }
 
 .ficheperso.first>div {
@@ -4638,10 +4638,9 @@ p {
 }
 
 .firstpseudo {
-	margin: 0 auto;
 	width: 100%;
-	width: fit-content;
 	text-transform: uppercase;
+	text-align: center;
 	color: var(--group-color);
 	font-family: var(--var);
 	font-size: var(--2xlarge);
@@ -4654,23 +4653,24 @@ p {
 
 firstdtls {
 	text-transform: lowercase;
-	font-weight: 300;
+	font-weight: 100;
 	letter-spacing: 2.5px;
-	width: 50%;
+	width: calc(50% - var(--2xsmall));
+	box-sizing: border-box;
 	display: block;
-	color: var(--group-color)
+	color: var(--group-color);
 }
 
-firstdtls:nth-last-of-type(even):before {
+firstdtls:nth-last-of-type(odd):before {
 	padding-right: 2.5px;
 	content: "—"
 }
 
-firstdtls:nth-last-of-type(odd) {
+firstdtls:nth-last-of-type(even) {
 	text-align: right
 }
 
-firstdtls:nth-last-of-type(odd):after {
+firstdtls:nth-last-of-type(even):after {
 	padding-right: 2.5px;
 	content: "—"
 }
@@ -4756,6 +4756,8 @@ statusdtls:nth-of-type(odd) {
 	text-transform: uppercase;
 	text-align: right;
 	font-family: var(--serif);
+	width: 100%;
+	height: fit-content;
 	letter-spacing: 5px
 }
 
