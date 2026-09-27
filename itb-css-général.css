@@ -4630,7 +4630,7 @@ p {
 }
 
 .ficheperso.first>div {
-	border: 0.5px solid var(--group-color-50 var(--co1-50));
+	border: 0.5px solid var(--group-color-50, var(--co1-50));
 	display: flex;
 	width: 100%;
 	border-radius: var(--large) var(--small) var(--large) var(--small);
@@ -4668,6 +4668,7 @@ firstdtls:before {
 	justify-content: center;
 	gap: var(--large);
 	padding: var(--large);
+	background-color: var(--group-color-50, var(--co1-50));
 	width: 100%
 }
 
