@@ -4668,12 +4668,12 @@ firstdtls {
 }
 
 firstdtls:nth-last-of-type(even) {
-	border-right: 2.5px solid var(--group-color-50, var(--co1-50));
+	border-left: 2.5px solid var(--group-color-50, var(--co1-50));
 }
 
 firstdtls:nth-last-of-type(odd) {
 	justify-content: end;
-	border-left: 2.5px solid var(--group-color-50, var(--co1-50));
+	border-right: 2.5px solid var(--group-color-50, var(--co1-50));
 }
 
 .ficheperso.first a {
