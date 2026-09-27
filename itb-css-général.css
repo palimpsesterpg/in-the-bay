@@ -6063,6 +6063,10 @@ lblpmdn {
 	font-weight: 200
 }
 
+.ficheperso.rep .posttab-contents {
+	width: 100%;
+}
+
 .defis .blocperso a {
 	font-weight: 700;
 	letter-spacing: 1px;
