@@ -4608,7 +4608,7 @@ p {
 }
 
 .ficheperso.first img {
-	height: auto;
+	height: 350px;
 	width: 250px;
 	border-radius: var(--large) 0 0 var(--small);
 	padding: var(--large);
@@ -4638,6 +4638,8 @@ p {
 
 .firstpseudo {
 	width: 100%;
+	height: 75px;
+	display: flex;
 	text-transform: uppercase;
 	text-align: center;
 	color: var(--group-color);
@@ -4647,7 +4649,9 @@ p {
 	letter-spacing: 2.5px;
 	font-weight: 700;
 	line-height: var(--2xlarge);
-	padding-left: 2.5px
+	padding-left: 2.5px;
+	align-items: center;
+	justify-content: center;
 }
 
 firstdtls {
@@ -4657,22 +4661,23 @@ firstdtls {
 	padding-left: 2.5px;
 	width: 50%;
 	box-sizing: border-box;
-	display: block;
+	display: flex;
 	color: var(--group-color);
 	height: fit-content;
+	align-items: center
 }
 
 firstdtls:nth-last-of-type(even):before {
-	padding-right: 2.5px;
+	padding-right: 1px;
 	content: "—"
 }
 
 firstdtls:nth-last-of-type(odd) {
-	text-align: right
+	justify-content: end;
 }
 
 firstdtls:nth-last-of-type(odd):after {
-	padding-left: 2.5px;
+	padding-left: 1px;
 	content: "—"
 }
 
