@@ -4644,7 +4644,7 @@ p {
 	border: 0.5px solid;
 }
 
-.pseudofirst {
+.firstpseudo {
 	margin: 0 auto;
 	width: fit-content;
 	text-transform: uppercase;
@@ -4674,7 +4674,8 @@ firstdtls:before {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex: 1
+	gap: var(--large);
+	width: 100%
 }
 
 .ficheperso.status img {
@@ -4683,8 +4684,7 @@ firstdtls:before {
 }
 
 .statuspseudo {
-	margin: 0 auto;
-	width: fit-content;
+	width: 100%;
 	text-transform: lowercase;
 	color: var(--group-color);
 	font-family: var(--var);
@@ -4698,12 +4698,20 @@ firstdtls:before {
 
 .statuscontent {
 	border: 0.5px solid;
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+	height: -webkit-fill-available
 }
 
 statusdtls {
-	border: 0.5px solid;
 	display: block;
 	width: 50%;
+}
+
+statusdtls+statusdtls {
+	border-right: 0.5px solid;
+	border-bottom: 0.5px solid;
 }
 
 .ficheperso.first a {
