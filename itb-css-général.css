@@ -484,10 +484,10 @@ fslarge {
 
 .pseudoperso nom {
 	font-family: var(--spe);
-	color: var(--lightdark);
+	color: var(--lighterdark);
 	font-size: var(--3xlarge);
 	text-transform: lowercase;
-	line-height: var(--large)
+	line-height: var(--xarge)
 }
 
 .pseudoperso prenom {
