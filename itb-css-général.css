@@ -4871,7 +4871,6 @@ statusdtls:nth-of-type(odd) {
 
 .pseudoinsta {
 	display: flex;
-	flex: 1;
 	flex-direction: column
 }
 
