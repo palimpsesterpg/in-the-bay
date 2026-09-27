@@ -5709,12 +5709,14 @@ statusinsta {
 .fichetinder .tindermoodbd {
 	display: flex;
 	width: 100%;
-	justify-content: space-evenly
+	gap: var(--large);
+	justify-content: center;
+	align-items: center
 }
 
 .fichetinder .tindermoodbd img {
-	width: 115px;
-	height: 115px;
+	flex: 1 1 calc(100% / 3 - 1rem);
+	aspect-ratio: 1;
 	object-fit: cover
 }
 
