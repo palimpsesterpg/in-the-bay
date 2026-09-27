@@ -5587,11 +5587,6 @@ statusinsta {
 	justify-content: center
 }
 
-.fichetinder {
-	background-color: var(--white);
-	margin: 0 auto
-}
-
 .fichetinder .tinderhead {
 	width: 100%;
 	display: flex;
