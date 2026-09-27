@@ -4604,10 +4604,10 @@ p {
 	height: 350px;
 	width: 250px;
 	border-radius: var(--large) 0 0 var(--small);
-	padding: var(--large);
-	border-top: 5px solid var(--white);
-	border-left: 5px solid var(--white);
-	border-bottom: 5px solid var(--white);
+	padding: 0.5rem;
+	border-top: 0.5rem solid var(--white);
+	border-left: 0.5rem solid var(--white);
+	border-bottom: 0.5rem solid var(--white);
 	box-sizing: border-box;
 	object-fit: cover
 }
