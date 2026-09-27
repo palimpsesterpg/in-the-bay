@@ -4711,7 +4711,8 @@ firstdtls:before {
 }
 
 .statuscontent {
-	border: 0.5px solid var(--group-color-50, var(--co1-50));
+	border: 0.5px solid var(--group-color-100, var(--co1-100));
+	background-color: var(--white);
 	flex: 1;
 	display: flex;
 	flex-wrap: wrap;
@@ -4725,11 +4726,13 @@ statusdtls {
 	box-sizing: border-box;
 	align-items: center;
 	justify-content: center;
-	border-top: 0.5px solid var(--group-color-50, var(--co1-50));
+	font-family: var(--serif);
+	text-transform: uppercase;
+	border-top: 0.5px solid var(--group-color-100, var(--co1-100));
 }
 
 statusdtls:nth-of-type(odd) {
-	border-right: 0.5px solid var(--group-color-50, var(--co1-50));
+	border-right: 0.5px solid var(--group-color-100, var(--co1-100));
 }
 
 .ficheperso.first a {
