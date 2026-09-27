@@ -4706,12 +4706,16 @@ firstdtls:before {
 
 statusdtls {
 	display: block;
+	border-top: 0.5px solid;
 	width: 50%;
 }
 
-statusdtls+statusdtls {
+statusdtls:nth-of-type(odd) {
 	border-right: 0.5px solid;
-	border-bottom: 0.5px solid;
+}
+
+.statuscontent a {
+	border-top: 0.5px solid;
 }
 
 .ficheperso.first a {
