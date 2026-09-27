@@ -4626,7 +4626,7 @@ p {
 	background-color: var(--white);
 	display: flex;
 	flex-wrap: wrap;
-	align-content: space-between;
+	align-content: space-between
 }
 
 .ficheperso.first>div {
@@ -4651,14 +4651,13 @@ p {
 	line-height: var(--2xlarge);
 	padding-left: 2.5px;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 firstdtls {
 	text-transform: lowercase;
 	font-weight: 100;
 	letter-spacing: 1px;
-	padding: 2.5px 1.5px 2.5px 2.5px;
 	width: 50%;
 	box-sizing: border-box;
 	display: flex;
@@ -4669,11 +4668,13 @@ firstdtls {
 
 firstdtls:nth-last-of-type(even) {
 	border-left: 2.5px solid var(--group-color-50, var(--co1-50));
+	padding-left: 5px
 }
 
 firstdtls:nth-last-of-type(odd) {
 	justify-content: end;
-	border-right: 2.5px solid var(--group-color-50, var(--co1-50));
+	padding-right: 4px;
+	border-right: 2.5px solid var(--group-color-50, var(--co1-50))
 }
 
 .ficheperso.first a {
