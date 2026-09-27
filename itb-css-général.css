@@ -5648,7 +5648,7 @@ statusinsta {
 	object-fit: cover
 }
 
-.ficheperso.astro div {
+.ficheperso.astro > div {
 	width: 500px;
 	flex-direction: row;
 	display: flex;
