@@ -4662,18 +4662,32 @@ firstdtls {
 	color: var(--group-color);
 }
 
-firstdtls:nth-last-of-type(odd):before {
+firstdtls:nth-last-of-type(even):before {
 	padding-right: 2.5px;
 	content: "—"
 }
 
-firstdtls:nth-last-of-type(even) {
+firstdtls:nth-last-of-type(odd) {
 	text-align: right
 }
 
-firstdtls:nth-last-of-type(even):after {
+firstdtls:nth-last-of-type(odd):after {
 	padding-right: 2.5px;
 	content: "—"
+}
+
+.ficheperso.first a {
+	background: linear-gradient(to right,
+			var(--group-color-300),
+			var(--group-color-600));
+	color: var(--white);
+	padding: 2.5px var(--small);
+	text-transform: uppercase;
+	text-align: right;
+	font-family: var(--serif);
+	width: 100%;
+	height: fit-content;
+	letter-spacing: 5px
 }
 
 .ficheperso.status>div {
@@ -4700,6 +4714,7 @@ firstdtls:nth-last-of-type(even):after {
 	font-size: var(--large);
 	height: 75px;
 	font-weight: 900;
+	font-family: var(--var);
 	align-items: center;
 	justify-content: center;
 	text-transform: lowercase;
@@ -4746,20 +4761,6 @@ statusdtls {
 
 statusdtls:nth-of-type(odd) {
 	border-right: 0.5px solid var(--group-color-100, var(--co1-100))
-}
-
-.ficheperso.first a {
-	background: linear-gradient(to right,
-			var(--group-color-300),
-			var(--group-color-600));
-	color: var(--white);
-	padding: 2.5px var(--small);
-	text-transform: uppercase;
-	text-align: right;
-	font-family: var(--serif);
-	width: 100%;
-	height: fit-content;
-	letter-spacing: 5px
 }
 
 .d-none {
