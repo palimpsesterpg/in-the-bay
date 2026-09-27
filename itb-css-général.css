@@ -461,6 +461,7 @@ fslarge {
 
 .headperso {
 	flex-wrap: wrap;
+	gap: var(--2xlarge);
 	justify-content: center !important
 }
 
@@ -482,26 +483,24 @@ fslarge {
 }
 
 .pseudoperso nom {
-	font-weight: 100;
 	font-family: var(--spe);
 	color: var(--lightdark);
-	font-size: var(--2xlarge);
+	font-size: var(--3xlarge);
 	text-transform: lowercase;
-	line-height: var(--2xlarge)
+	line-height: var(--large)
 }
 
 .pseudoperso prenom {
 	font-weight: 100;
 	color: var(--lightdark);
-	font-size: var(--xlarge);
+	font-size: var(--3xlarge);
 	text-transform: uppercase;
-	letter-spacing: 0.15rem;
-	padding-left: 0.15rem
+	letter-spacing: 0.25rem;
+	padding-left: 0.25rem
 }
 
 .pseudoperso pronom {
 	color: var(--darkerneutral);
-	font-size: var(--small);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
 	font-family: var(--mono)
