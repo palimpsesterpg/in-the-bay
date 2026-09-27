@@ -4626,6 +4626,7 @@ p {
 	background-color: var(--white);
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	gap: var(--2xsmall)
 }
 
@@ -4638,6 +4639,7 @@ p {
 
 .firstpseudo {
 	margin: 0 auto;
+	width: 100%;
 	width: fit-content;
 	text-transform: uppercase;
 	color: var(--group-color);
@@ -4654,13 +4656,26 @@ firstdtls {
 	text-transform: lowercase;
 	font-weight: 300;
 	letter-spacing: 2.5px;
+	width: 50%;
+	display: block;
 	color: var(--group-color)
 }
 
-firstdtls:before {
+firstdtls:nth-last-of-type(even):before {
 	padding-right: 2.5px;
 	content: "—"
 }
+
+firstdtls:nth-last-of-type(odd) {
+	text-align: right
+}
+
+firstdtls:nth-last-of-type(odd):after {
+	padding-right: 2.5px;
+	content: "—"
+}
+
+
 
 .ficheperso.status>div {
 	display: flex;
