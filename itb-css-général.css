@@ -4688,7 +4688,6 @@ firstdtls:nth-last-of-type(odd) {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: var(--large);
 	padding: var(--large);
 	background-color: var(--group-color-50, var(--co1-50));
 	border-radius: var(--large) var(--small) var(--large) var(--small);
@@ -4699,7 +4698,6 @@ firstdtls:nth-last-of-type(odd) {
 .ficheperso.status img {
 	width: 200px;
 	object-fit: cover;
-	border: var(--large) solid var(--white);
 	height: -webkit-fill-available
 }
 
@@ -4744,7 +4742,6 @@ firstdtls:nth-last-of-type(odd) {
 }
 
 .statuscontent {
-	border: 0.5px solid var(--group-color-100, var(--co1-100));
 	background-color: var(--white);
 	flex: 1;
 	display: flex;
@@ -4761,11 +4758,11 @@ statusdtls {
 	justify-content: center;
 	font-family: var(--serif);
 	text-transform: uppercase;
-	border-top: 0.5px solid var(--group-color-100, var(--co1-100))
+	border-top: 0.5px solid var(--group-color-50, var(--co1-50))
 }
 
 statusdtls:nth-of-type(odd) {
-	border-right: 0.5px solid var(--group-color-100, var(--co1-100))
+	border-right: 0.5px solid var(--group-color-50, var(--co1-50))
 }
 
 .d-none {
