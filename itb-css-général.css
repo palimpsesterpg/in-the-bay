@@ -4621,10 +4621,11 @@ p {
 	flex-wrap: wrap;
 	height: -webkit-fill-available;
 	gap: var(--2xsmall);
+	align-content: space-between
 }
 
 .ficheperso.first>div {
-	border: 0.5px solid var(--group-color-50, var(--co1-50));
+	border: 1px solid var(--group-color-50, var(--co1-50));
 	display: flex;
 	width: 100%;
 	border-radius: var(--large) var(--small) var(--large) var(--small)
@@ -4656,7 +4657,7 @@ firstdtls {
 	box-sizing: border-box;
 	display: flex;
 	color: var(--group-color);
-	height: fit-content;
+	height: 55px;
 	align-items: center
 }
 
@@ -4693,7 +4694,7 @@ firstdtls:nth-last-of-type(odd) {
 	padding: var(--large);
 	background-color: var(--group-color-50, var(--co1-50));
 	border-radius: var(--large) var(--small) var(--large) var(--small);
-	border: 0.5px solid var(--white);
+	border: 1px solid var(--group-color);
 	width: 100%
 }
 
@@ -4723,7 +4724,7 @@ firstdtls:nth-last-of-type(odd) {
 	align-items: center;
 	justify-content: center;
 	text-transform: lowercase;
-	border-top: 0.5px solid var(--group-color-100, var(--co1-100))
+	border-top: 1px solid var(--group-color-50, var(--co1-50))
 }
 
 .statuspseudo {
@@ -4760,11 +4761,11 @@ statusdtls {
 	justify-content: center;
 	font-family: var(--serif);
 	text-transform: uppercase;
-	border-top: 0.5px solid var(--group-color-50, var(--co1-50))
+	border-top: 1px solid var(--group-color-50, var(--co1-50))
 }
 
 statusdtls:nth-of-type(odd) {
-	border-right: 0.5px solid var(--group-color-50, var(--co1-50))
+	border-right: 1px solid var(--group-color-50, var(--co1-50))
 }
 
 .d-none {
