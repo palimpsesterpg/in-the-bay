@@ -4619,7 +4619,8 @@ p {
 	background-color: var(--white);
 	display: flex;
 	flex-wrap: wrap;
-	align-content: space-between
+	height: -webkit-fill-available;
+	gap: var(--2xsmall);
 }
 
 .ficheperso.first>div {
@@ -4651,7 +4652,7 @@ firstdtls {
 	text-transform: lowercase;
 	font-weight: 100;
 	letter-spacing: 1px;
-	width: 50%;
+	width: calc(50% - var(--2xsmall) / 2);
 	box-sizing: border-box;
 	display: flex;
 	color: var(--group-color);
@@ -4671,17 +4672,18 @@ firstdtls:nth-last-of-type(odd) {
 }
 
 .ficheperso.first a {
-	background: linear-gradient(to right,
-			var(--group-color-300),
-			var(--group-color-600));
+	background: linear-gradient(to right, var(--group-color-300), var(--group-color-600));
 	color: var(--white);
 	padding: 2.5px var(--small);
 	text-transform: uppercase;
 	text-align: right;
 	font-family: var(--serif);
 	width: 100%;
-	height: fit-content;
-	letter-spacing: 5px
+	letter-spacing: 5px;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 
 .ficheperso.status>div {
@@ -5732,21 +5734,24 @@ statusinsta {
 .ficheperso.astro img {
 	width: 300px;
 	height: 300px;
+	border-radius: 0 var(--small) var(--large) 0;
 	object-fit: cover
 }
 
 .ficheperso.astro>div {
 	flex-direction: row;
 	display: flex;
+	border-radius: var(--large) var(--small) var(--large) var(--small);
 	background-color: var(--group-color-50);
 	padding: var(--large);
-	border: 0.5px solid var(--group-color);
+	border: 0.5px solid var(--white);
 	width: 100%
 }
 
 .astrocontent {
 	display: flex;
 	flex: 1;
+	border-radius: var(--large) 0 0 var(--small);
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
