@@ -4691,13 +4691,24 @@ firstdtls:nth-last-of-type(odd) {
 	gap: var(--large);
 	padding: var(--large);
 	background-color: var(--group-color-50, var(--co1-50));
+	border-radius: var(--large) var(--small) var(--large) var(--small);
+	border: 0.5px solid var(--white);
 	width: 100%
 }
 
 .ficheperso.status img {
 	width: 200px;
 	object-fit: cover;
+	border: var(--large) solid var(--white);
 	height: -webkit-fill-available
+}
+
+.ficheperso.status img:first-of-type {
+	border-radius: var(--large) 0 0 var(--small)
+}
+
+.ficheperso.status img:last-of-type {
+	border-radius: 0 var(--small) var(--large) 0
 }
 
 .ficheperso.status a {
