@@ -5851,7 +5851,7 @@ lblpmdn {
 	flex: 4
 }
 
-.fichetodo {
+.fichetodo>div {
 	margin: 0 auto;
 	padding: var(--2xlarge);
 	width: 400px;
@@ -5864,7 +5864,7 @@ lblpmdn {
 	margin-top: var(--large)
 }
 
-.fichetodo::before {
+.fichetodo::before>div {
 	content: '';
 	width: 100px;
 	height: 30px;
