@@ -4822,10 +4822,7 @@ statusdtls:nth-of-type(odd) {
 	align-items: center;
 	justify-content: center;
 	gap: var(--large);
-	padding: var(--large);
-	width: 514px;
-	background-color: var(--white);
-	margin: 0 auto
+	padding: var(--2xlarge);
 }
 
 .mini {
@@ -4970,14 +4967,13 @@ statusinsta {
 	position: relative;
 	display: flex;
 	align-items: center;
+	width: calc(100% / 3 - 1rem);
 	justify-content: center
 }
 
-.imginsta img,
-.imginsta,
-.imgcontent {
-	height: 150px;
-	width: 150px;
+.imginsta img {
+	height: 100%;
+	width: 100%;
 	object-fit: cover
 }
 
@@ -4986,8 +4982,8 @@ statusinsta {
 	position: absolute;
 	gap: var(--large);
 	text-transform: lowercase;
-	width: 135px;
-	height: 135px;
+	width: 100%;
+	height: 100%;
 	align-items: center;
 	justify-content: center;
 	background-color: var(--whiteop75);
