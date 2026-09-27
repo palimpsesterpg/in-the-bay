@@ -4625,9 +4625,8 @@ p {
 	border-radius: 0 var(--small) var(--large) 0;
 	background-color: var(--white);
 	display: flex;
-	gap: var(--2xsmall);
 	flex-wrap: wrap;
-	align-content: center;
+	align-content: space-between;
 }
 
 .ficheperso.first>div {
@@ -4656,10 +4655,11 @@ firstdtls {
 	font-weight: 100;
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	width: calc(50% - var(--2xsmall));
+	width: 50%;
 	box-sizing: border-box;
 	display: block;
 	color: var(--group-color);
+	height: fit-content;
 }
 
 firstdtls:nth-last-of-type(even):before {
@@ -4672,7 +4672,7 @@ firstdtls:nth-last-of-type(odd) {
 }
 
 firstdtls:nth-last-of-type(odd):after {
-	padding-right: 2.5px;
+	padding-left: 2.5px;
 	content: "—"
 }
 
