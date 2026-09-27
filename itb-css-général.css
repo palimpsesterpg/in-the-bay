@@ -5730,33 +5730,34 @@ statusinsta {
 }
 
 .ficheperso.astro img {
-	width: 200px;
+	width: 300px;
 	height: 300px;
 	object-fit: cover
 }
 
 .ficheperso.astro>div {
-	width: 500px;
 	flex-direction: row;
 	display: flex
 }
 
-.ficheperso.astro .astrocontent {
+.astrocontent {
 	display: flex;
 	flex: 1;
-	flex-direction: column;
+	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
 	gap: var(--large);
 	padding: var(--large)
 }
 
-.ficheperso.astro div span {
+.astrocontent span {
 	display: flex;
 	flex-direction: column;
 	font-family: var(--mono);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	font-weight: 200;
+	font-weight: 100;
+	width: 50%;
 	align-items: center;
 	text-transform: lowercase
 }
