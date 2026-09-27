@@ -4654,16 +4654,40 @@ p {
 	padding-left: 2.5px
 }
 
-firstdts {
+firstdtls {
 	text-transform: lowercase;
 	font-weight: 300;
 	letter-spacing: 2.5px;
 	color: var(--group-color)
 }
 
-firstdts:before {
+firstdtls:before {
 	padding-right: 2.5px;
 	content: "—"
+}
+
+.statuspseudo {
+	margin: 0 auto;
+	width: fit-content;
+	text-transform: lowercase;
+	color: var(--group-color);
+	font-family: var(--var);
+	font-size: var(--2xlarge);
+	text-shadow: 1px 1px var(--group-color-50);
+	letter-spacing: 5px;
+	font-weight: 100;
+	line-height: var(--2xlarge);
+	padding-left: 5px
+}
+
+.statuscontent {
+	border: 0.5px solid;
+}
+
+statusdtls {
+	border: 0.5px solid;
+	padding: var(--large);
+	box-sizing: border-box
 }
 
 .ficheperso.first a {
@@ -5648,7 +5672,7 @@ statusinsta {
 	object-fit: cover
 }
 
-.ficheperso.astro > div {
+.ficheperso.astro>div {
 	width: 500px;
 	flex-direction: row;
 	display: flex;
