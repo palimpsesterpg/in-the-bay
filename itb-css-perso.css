@@ -11,19 +11,19 @@
     display: block
 }
 
-[data-user-id="u2"].cam camhd:before {
+#u2.cam camhd:before {
     content: "\E052"
 }
 
-[data-user-id="u60"].cam camhd:before {
+#u60.cam camhd:before {
     content: "\E026"
 }
 
-[data-user-id="u96"].cam camhd:before {
+#u96.cam camhd:before {
     content: "\E044"
 }
 
-[data-user-id="u112"].cam camhd:before {
+#u112.cam camhd:before {
     content: "\E022"
 }
 
