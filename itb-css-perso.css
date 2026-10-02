@@ -11,19 +11,19 @@
     display: block
 }
 
-#u2.cam camhd:before {
+#u2 camhd:before {
     content: "\E052"
 }
 
-#u60.cam camhd:before {
+#u60 camhd:before {
     content: "\E026"
 }
 
-#u96.cam camhd:before {
+#u96 camhd:before {
     content: "\E044"
 }
 
-#u112.cam camhd:before {
+#u112 camhd:before {
     content: "\E022"
 }
 
